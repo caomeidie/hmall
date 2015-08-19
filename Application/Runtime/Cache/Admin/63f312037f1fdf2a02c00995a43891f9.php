@@ -1,0 +1,52 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>hongweb system</title>
+<script src="/hmall/Public/Admin/js/dwz/jquery-1.7.2.js" type="text/javascript"></script>
+</head>
+<h1>登录</h1>
+
+<div class="form">
+	<form method="post" name="loginform" action="<?php echo U('index/login');?>">
+		<dl>
+			<dt>用户：</dt>
+			<dd>
+		        <input name="name" type="text" />
+		    </dd>
+		</dl>
+		<dl>
+			<dt>密码：</dt>
+			<dd>
+		        <input name="password" type="password" />
+		    </dd>
+		</dl>
+		<dl>
+			<dt>验证码：</dt>
+			<dd><img class="verifyimg reloadverify" alt="点击切换" src="<?php echo U('index/verify');?>"></dd>
+			<dd>
+			    <input name="code" type="text" />
+			</dd>
+		</dl>
+		<dl>
+			<dt></dt>
+			<dd>
+			    <input type="submit" value="登录" />
+			</dd>
+		</dl>
+	</form>
+</div>
+<script type="text/javascript">
+$(function(){
+	//刷新验证码
+	var verifyimg = $(".verifyimg").attr("src");
+    $(".reloadverify").click(function(){
+        if( verifyimg.indexOf('?')>0){
+            $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
+        }else{
+            $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
+        }
+    });
+})
+</script>
+</html>

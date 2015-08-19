@@ -1,1536 +1,1296 @@
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T09:09:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T09:09:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:09:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T09:09:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:09:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:09:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:09:42+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T09:24:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/header_bg.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/layout/toggleSidebar.png
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tabs/tabspage.png
+[ 2015-08-19T10:23:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/accordion/accordion.png
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/logo.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/listLine.png
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/icon.png
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:37+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tabs/tabscontrol.png
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:39:43+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:24:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/progressBar/progressBar_m.gif
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/layout/taskbar.png
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/tree.png
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:26:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/check.png
+[ 2015-08-19T10:26:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:41:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/folder.png
+[ 2015-08-19T10:26:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:26:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:26:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:42:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/logo.png
+[ 2015-08-19T10:26:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T10:26:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439951997049
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/header_bg.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/listLine.png
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439951997069
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/layout/toggleSidebar.png
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439951997087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439951997116
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/accordion/accordion.png
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439951997134
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/icon.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tabs/tabspage.png
+[ 2015-08-19T10:39:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439951997174
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tabs/tabscontrol.png
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/progressBar/progressBar_m.gif
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/layout/taskbar.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/tree.png
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/check.png
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/css/images/tree/folder.png
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.015000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:40:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:43:57+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:41:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:01+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:41:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439952087980
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.126000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:44:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:41:28+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439952087998
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:41:28+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439952088019
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:41:28+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439952088037
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:41:28+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439952088056
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.036000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:01+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439862330210
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439862330232
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439862330255
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439862330288
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439862330312
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T09:45:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439862330334
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T10:09:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.021000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:47:47+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:41:28+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439952088094
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:50:53+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:42:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T11:52:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:43:58+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:43:58+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:43:58+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:43:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:43:41+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:43:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:43:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439880252468
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439880252506
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439880252562
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439880252580
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439880252602
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:12+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439880252630
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.083000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439880259368
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439880259391
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439880259416
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439880259452
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439880259475
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:44:19+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439880259497
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:45:45+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:45:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:45:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:45:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:45:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:45:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439881174495
+[ 2015-08-19T10:44:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439881174521
+[ 2015-08-19T10:47:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:47:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439881174543
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439881174602
+[ 2015-08-19T10:47:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439881174624
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T14:59:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439881174647
+[ 2015-08-19T10:47:17+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T10:47:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:47:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:16:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:23:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:07+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.021000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:25:20+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.026000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:26:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:18+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439882901054
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439882901073
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439882901092
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439882901128
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439882901161
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439882901181
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439882907211
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439882907243
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439882907277
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439882907302
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439882907338
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:28:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439882907369
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:40+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:56+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:29:59+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:30:13+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:33:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:48:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439952639546
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439952639566
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T15:43:34+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439952639596
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439952639614
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439952639632
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T10:50:39+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439952639650
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T15:46:26+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Public
-
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:50:42+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T16:00:21+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T10:58:38+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:01:23+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:01:23+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+[ 2015-08-19T11:01:23+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+[ 2015-08-19T11:01:23+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:04:00+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+[ 2015-08-19T11:01:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js?_=1439889729840
+[ 2015-08-19T11:01:24+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:01:24+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js?_=1439889729859
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js?_=1439889729878
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js?_=1439889729897
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js?_=1439889729915
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 
-[ 2015-08-18T17:22:09+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js?_=1439889729935
+[ 2015-08-19T11:02:27+08:00 ] 127.0.0.1 /hmall/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:33:46+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:41:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.097000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:46:15+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T11:53:27+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:22+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:01:54+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:02:02+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:03:52+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:04:43+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:05:30+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:06:35+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:07:44+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:08:14+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:28:05+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:38:25+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/jquery-1.7.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-19T14:55:10+08:00 ] 127.0.0.1 /hmall/Public/Admin/js/jquery-1.7.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Public
 

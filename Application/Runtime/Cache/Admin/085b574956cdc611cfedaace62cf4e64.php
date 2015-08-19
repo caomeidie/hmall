@@ -128,11 +128,11 @@ function testConfirmMsg(text, url){
 						<ul class="tree treeFolder">
 							<li><a href="tabsPage.html" target="navTab">后台用户列表</a>
 								<ul>
-									<li><a href="?r=admin/index" target="navTab" rel="main">全部用户</a></li>
-									<li><a href="?r=admin/index&s=admin" target="navTab" rel="main">主管理员</a></li>
-									<li><a href="?r=admin/index&s=editor" target="navTab" rel="main">编辑用户</a></li>
-									<li><a href="?r=admin/index&s=finance" target="navTab" rel="main">财务用户</a></li>
-									<li><a href="?r=admin/index&s=service" target="navTab" rel="main">客服用户</a></li>
+									<li><a href="<?php echo U('admin/index');?>" target="navTab" rel="main">全部用户</a></li>
+									<li><a href="<?php echo U('admin/index',array('s'=>'admin'));?>" target="navTab" rel="main">主管理员</a></li>
+									<li><a href="<?php echo U('admin/index',array('s'=>'editor'));?>" target="navTab" rel="main">编辑用户</a></li>
+									<li><a href="<?php echo U('admin/index',array('s'=>'finance'));?>" target="navTab" rel="main">财务用户</a></li>
+									<li><a href="<?php echo U('admin/index',array('s'=>'service'));?>" target="navTab" rel="main">客服用户</a></li>
 								</ul>
 							</li>
 							
