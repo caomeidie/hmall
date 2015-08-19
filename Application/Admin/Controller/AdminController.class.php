@@ -3,7 +3,9 @@ namespace Admin\Controller;
 use Admin\Controller\UserBaseController;
 
 class AdminController extends UserBaseController{
-    
+    public function __construct(){
+        parent::__construct();
+    }
     public function index(){
         $admin_model = D('Admin');
         if($s = I('get.s')){
@@ -43,7 +45,7 @@ class AdminController extends UserBaseController{
                     $result = $this->message("添加成功");
                 }else{
                     $result = $this->message("添加失败", 300);
-                }                
+                }
             }else{
                 $result = $this->message($admin_model->getError(), 300);
             }
@@ -53,6 +55,6 @@ class AdminController extends UserBaseController{
             $style_list = $style_model->select();
             $this->assign('style_list', $style_list);
             $this->display();
-        }        
+        }
     }
 }
