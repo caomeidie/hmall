@@ -38,7 +38,7 @@
 		<dl>
 			<dt>文章内容：</dt>
 			<dd>
-		        <textarea class="editor" name="content" rows="20" cols="100" upLinkUrl="upload.php" upLinkExt="zip,rar,txt" upImgUrl="/hmall/Public/static/upload.php" upImgExt="jpg,jpeg,gif,png" upFlashUrl="upload.php" upFlashExt="swf" upMediaUrl="upload.php" upMediaExt:"avi">full(完全) 默认方式</textarea>
+		        <textarea class="editor" name="content" rows="20" cols="100" upLinkUrl="/hmall/Public/static/upload.php" upLinkExt="zip,rar,txt" upImgUrl="/hmall/Public/static/upload.php" upImgExt="jpg,jpeg,gif,png" upFlashUrl="/hmall/Public/static/upload.php" upFlashExt="swf" upMediaUrl="/hmall/Public/static/upload.php" upMediaExt:"avi">full(完全) 默认方式</textarea>
 		    </dd>
 		</dl>
 		</div>
