@@ -2,37 +2,36 @@
 namespace Admin\Controller;
 use Admin\Controller\UserBaseController;
 
-class AdminStyleController extends UserBaseController{
+class ArticleClassController extends UserBaseController{
     public function index(){
-        $style_model = D('AdminStyle');
-        $count = $style_model->field('COUNT(style_id) as count')->find();
+        $ac_model = D('ArticleClass');
+        $count = $ac_model->field('COUNT(ac_id) as count')->find();
         $pagination['count'] = $count['count'];
         $pagination['page'] = is_numeric(I('post.pageNum')) ? I('post.pageNum')-1 : 0;
         $pagination['perpage'] = is_numeric(I('post.numPerPage')) ? I('post.numPerPage') : 5;
         $pagination['pagenum'] = ceil($pagination['count'] / $pagination['perpage']);
         $pagination['offset'] = $pagination['page'] * $pagination['perpage'];
-        $style_list = $style_model->order('style_id ASC')->page($pagination['page']+1, $pagination['perpage'])->select();
-        $this->assign(array('style_list'=> $style_list, 'pagination'=>$pagination));
+        $ac_list = $ac_model->order('ac_id ASC')->page($pagination['page']+1, $pagination['perpage'])->select();
+        $this->assign(array('ac_list'=> $ac_list, 'pagination'=>$pagination));
         $this->display();
     }
     
     public function add(){
+        $ac_model = D('ArticleClass');
         if(IS_POST){
-            $style_model = D('AdminStyle');
-            if($style_model->create()){
-                if($style_model->add()){
+            if($ac_model->create()){
+                if($ac_model->add()){
                     $result = $this->message("添加成功");
                 }else{
                     $result = $this->message("添加失败", 300);
                 }
             }else{
-                $result = $this->message($style_model->getError(), 300);
+                $result = $this->message($ac_model->getError(), 300);
             }
             echo $result;
         }else{
-            $roles_model = D('Roles');
-            $roles_list = $roles_model->select();
-            $this->assign('roles_list', $roles_list);
+            $ac_list = $ac_model->select();
+            $this->assign('ac_list', $ac_list);
             $this->display();
         }
     }

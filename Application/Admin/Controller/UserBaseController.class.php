@@ -6,43 +6,38 @@ class UserBaseController extends Controller{
         parent::__construct();
         // 获取当前用户ID
         if(self::is_login() == 0){// 还没登录 跳转到登录页面
-            $this->redirect('index/login');
+            //echo "<script>testConfirmMsg('还未登录，请登陆！', '".U('index/login')."');</script>";
+            //exit;
+            $this->error('还未登录，请登陆！', U('index/login'));
         }
-        
-        $userinfo = session('user_auto');
+        $userinfo = session('user_auth');
         if($userinfo['time'] <= time()-24*60){
             session('user_auth', null);
             session('[destroy]');
-            $this->error('登录超时', 'index/login');
-        }
-        /*if(time()<Yii::app()->user->getState('sessionTimeoutSeconds')){
-            Yii::app()->user->setState('sessionTimeoutSeconds', time()+Yii::app()->params['sessionTimeoutSeconds']);
-            return true;
-        }else{
-            Yii::app()->user->logout();
-            //$this->redirect(Yii::app()->homeUrl.'?r=site/login');
-            //echo $this->message("登录超时", "301");
-            echo "<script>testConfirmMsg('登陆超时，请重新登陆！', '".Yii::app()->request->baseUrl."');</script>";
+            echo "<script>testConfirmMsg('登陆超时，请重新登陆！', '".U('index/login')."');</script>";
             exit;
+        }else{
+            session('user_auth', array('info'=>$userinfo['info'], 'time'=>time()));
+            $this->assign('user_auth', $userinfo['info']);
         }
         
         //判断用户是否有权限操作当前action
-        $adminStyle_model = D('AdminStyle');
-        $roles = $adminStyle_model->getStyle(Yii::app()->user->getId());
+        /*$admin_model = D('Admin');
+        $style_id = $admin_model->field('style_id')->where(array('admin_id'=>$userinfo['info']['admin_id']))->find();
+        
+        $style_model = D('AdminStyle');
+        $roles = $style_model->field('roles')->where(array('style_id'=>$style_id['style_id']))->find();
         
         $roles_arr = unserialize($roles['roles']);
-         
-        $action_name = $this->getAction()->getId();
-        $controller_name = $this->getId();
-        
+                
         $roles_model = new Roles();
-        $role = $roles_model->getRole($action_name,'NAME',$controller_name);
+        $role = $roles_model->getRole(ACTION_NAME,'NAME',CONTROLLER_NAME);
         
         if(!$this->checkRole($role, $roles_arr)){
             echo "<script>alertMsg.error('您没有权限访问此模块，请与管理员联系！')</script>";
             exit;
         }
-        return true;*/
+        */
     }
     /**
      * 信息提醒

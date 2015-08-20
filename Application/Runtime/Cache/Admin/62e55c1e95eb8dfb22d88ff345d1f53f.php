@@ -1,103 +1,264 @@
-<?php if (!defined('THINK_PATH')) exit();?><form id="pagerForm" method="post" action="<?php echo U('admin/index');?>">
-	<input type="hidden" name="status" value="${param.status}">
-	<input type="hidden" name="keywords" value="${param.keywords}" />
-	<input type="hidden" name="pageNum" value="1" />
-	<input type="hidden" name="numPerPage" value="<?php echo ($pagination['perpage']); ?>" />
-	<input type="hidden" name="orderField" value="${param.orderField}" />
-</form>
-<div class="pageHeader">
-	<form onsubmit="return navTabSearch(this);" action="<?php echo U('admin/index');?>" method="post">
-	<div class="searchBar">
-	    <table class="searchContent">
-			<tr>
-				<td>
-					我的客户：<input type="text" name="keyword" />
-				</td>
-				<td>
-					<select class="combox" name="province">
-						<option value="">所有省市</option>
-						<option value="北京">北京</option>
-						<option value="上海">上海</option>
-						<option value="天津">天津</option>
-						<option value="重庆">重庆</option>
-						<option value="广东">广东</option>
-					</select>
-				</td>
-				<td>
-					建档日期：<input type="text" class="date" readonly="true" />
-				</td>
-			</tr>
-		</table>
-		<div class="subBar">
-			<ul>
-				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索</button></div></div></li>
-				<li><a class="button" href="demo_page6.html" target="dialog" mask="true" title="查询框"><span>高级检索</span></a></li>
-			</ul>
-		</div>
-	</div>
-	</form>
-</div>
-<div class="pageContent">
-	<div class="panelBar">
-		<ul class="toolBar">
-		    <li><a class="all edit"><span>全选</span></a></li>
-			<li><a class="add" href="<?php echo U('admin/add');?>" target="navTab"><span>添加</span></a></li>
-			<li><a title="确实要删除这些记录吗?" target="selectedTodo" rel="check" postType="string" href="<?php echo U('admin/del');?>" class="delete"><span>删除</span></a></li>
-			<li class="line">line</li>
-			<li><a class="icon" href="demo/common/dwz-team.xls" target="dwzExport" targetType="navTab" title="实要导出这些记录吗?"><span>导出EXCEL</span></a></li>
-		</ul>
-	</div>
-	<table class="table" width="100%" layoutH="138">
-		<thead>
-			<tr>
-			    <th width="40"></th>
-				<th width="80">id</th>
-				<th width="120">用户名</th>
-				<th>邮箱</th>
-				<th width="100">手机</th>
-				<th width="150">添加时间</th>
-				<th width="150">最近更新时间</th>
-				<th width="80">最近登录IP</th>
-				<th width="80">状态</th>
-				<th width="80">用户类型</th>
-				<th width="80">操作</th>
-			</tr>
-		</thead>
-		<tbody>
-		<?php if(is_array($admin_list)): foreach($admin_list as $key=>$value): ?><tr target="sid" rel="<?php echo ($value['admin_id']); ?>">
-    		    <td><label><input type="checkbox" name="check" value="<?php echo ($value['admin_id']); ?>" /></label></td>
-        		<td><?php echo ($value['admin_id']); ?></td>
-                <td><?php echo ($value['admin_name']); ?></td>
-                <td><?php echo ($value['email']); ?></td>
-                <td><?php echo ($value['phone']); ?></td>
-                <td><?php echo (date("Y-m-d H:i:s",$value['addtime'])); ?></td>
-                <td><?php echo (date("Y-m-d H:i:s",$value['updatetime'])); ?></td>
-                <td><?php echo ($value['lastip']); ?></td>
-                <td><?php echo ($value['status']); ?></td>
-                <td><?php echo ($value['style_id']); ?></td>
-                <td>
-                    <a title="删除" target="ajaxTodo" href="<?php echo U('admin/del',array('uid'=>$value['admin_id']));?>" class="btnDel">删除</a>
-					<a title="编辑" target="navTab" href="<?php echo U('admin/edit',array('uid'=>$value['admin_id']));?>" class="btnEdit">编辑</a>
-                </td>
-			</tr><?php endforeach; endif; ?>
-		</tbody>
-	</table>
-	<div class="panelBar">
-		<div class="pages">
-			<span>显示</span>
-			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
-			    <option value="2" <?php if($pagination['perpage'] <= 2): ?>selected<?php endif; ?>>2</option>
-				<option value="20" <?php if($pagination['perpage'] > 2 AND $pagination['perpage'] <= 20): ?>selected<?php endif; ?>>20</option>
-				<option value="50" <?php if($pagination['perpage'] > 20 AND $pagination['perpage'] <= 50): ?>selected<?php endif; ?>>50</option>
-				<option value="100" <?php if($pagination['perpage'] > 50 AND $pagination['perpage'] <= 100): ?>selected<?php endif; ?>>100</option>
-				<option value="200" <?php if($pagination['perpage'] > 100 AND $pagination['perpage'] <= 200): ?>selected<?php endif; ?>>200</option>
-			</select>
-			<span>条，共<?php echo ($pagination['count']); ?>条</span>
-		</div>
-		
-		<div class="pagination" targetType="navTab" totalCount="<?php echo ($pagination['count']); ?>" numPerPage="<?php echo ($pagination['perpage']); ?>" pageNumShown="<?php echo ($pagination['pagenum']); ?>" currentPage="<?php echo ($pagination['page']+1); ?>"></div>
-	</div>
-</div>
-<script>
-    var href = $("#delete").attr('href');
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>hmall system</title>
+<link href="/hmall/Public/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<link href="/hmall/Public/Admin/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="/hmall/Public/Admin/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="/hmall/Public/Admin/css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<link href="/hmall/Public/Admin/css/uploadify.css" rel="stylesheet" type="text/css" media="screen"/>
+<!--[if IE]>
+<link href="themes/css/ieHack.css" rel="stylesheet" type="text/css" media="screen"/>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script src="js/speedup.js" type="text/javascript"></script>
+<![endif]-->
+
+<script src="/hmall/Public/Admin/js/dwz/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/jquery.cookie.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/jquery.validate.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/jquery.bgiframe.js" type="text/javascript"></script>
+<script src="/hmall/Public/static/xheditor/xheditor-1.2.1.min.js" type="text/javascript"></script>
+<script src="/hmall/Public/static/xheditor/xheditor_lang/zh-cn.js" type="text/javascript"></script>
+<script src="/hmall/Public/static/uploadify/scripts/jquery.uploadify.js" type="text/javascript"></script>
+
+<!-- svg图表  supports Firefox 3.0+, Safari 3.0+, Chrome 5.0+, Opera 9.5+ and Internet Explorer 6.0+ -->
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/raphael.js"></script>
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/g.raphael.js"></script>
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/g.bar.js"></script>
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/g.line.js"></script>
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/g.pie.js"></script>
+<script type="text/javascript" src="/hmall/Public/Admin/js/chart/g.dot.js"></script>
+
+<script src="/hmall/Public/Admin/js/dwz/dwz.core.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.util.date.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.validate.method.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.barDrag.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.drag.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.tree.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.accordion.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.ui.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.theme.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.switchEnv.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.alertMsg.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.contextmenu.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.navTab.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.tab.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.resize.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.dialog.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.dialogDrag.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.sortDrag.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.cssTable.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.stable.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.taskBar.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.ajax.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.pagination.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.database.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.datepicker.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.effects.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.panel.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.checkbox.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.history.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.combox.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/dwz.print.js" type="text/javascript"></script>
+<script src="/hmall/Public/Admin/js/dwz/hong.common.js" type="text/javascript"></script>
+<!-- 可以用dwz.min.js替换前面全部dwz.*.js (注意：替换是下面dwz.regional.zh.js还需要引入)
+<script src="bin/dwz.min.js" type="text/javascript"></script>
+-->
+<script src="/hmall/Public/Admin/js/dwz/dwz.regional.zh.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function(){
+	DWZ.init("/hmall/Public/static/dwz.frag.xml", {
+		loginUrl:"", loginTitle:"登录",	// 弹出登录对话框
+//		loginUrl:"login.html",	// 跳到登录页面
+		statusCode:{ok:200, error:300, timeout:301}, //【可选】
+		pageInfo:{pageNum:"pageNum", numPerPage:"numPerPage", orderField:"orderField", orderDirection:"orderDirection"}, //【可选】
+		keys: {statusCode:"statusCode", message:"message"}, //【可选】
+		ui:{hideMode:'offsets'}, //【可选】hideMode:navTab组件切换的隐藏方式，支持的值有’display’，’offsets’负数偏移位置的值，默认值为’display’
+		debug:false,	// 调试模式 【true|false】
+		callback:function(){
+			initEnv();
+			$("#themeList").theme({themeBase:"themes"}); // themeBase 相对于index页面的主题base路径
+		}
+	});
+});
+function testConfirmMsg(text, url){
+	alertMsg.error(text, {
+		okCall: function(){
+			window.location.href=url;
+		}
+	});
+}
 </script>
+</head>
+
+<body scroll="no">
+	<div id="layout">
+		<div id="header">
+			<div class="headerNav">
+				<a class="logo" href="http://j-ui.com">标志</a>
+				<ul class="nav">
+				    <li><a href="javascript:"><?php echo ($user_auth['admin_name']); ?></a></li>
+					<li><a href="https://me.alipay.com/dwzteam" target="_blank">消息（0）</a></li>
+					<li><a href="<?php echo U('index/logout');?>">退出</a></li>
+				</ul>
+		    </div>
+
+			<!-- navMenu -->
+			
+		</div>
+
+		<div id="leftside">
+			<div id="sidebar_s">
+				<div class="collapse">
+					<div class="toggleCollapse"><div></div></div>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div class="toggleCollapse"><h2>主菜单</h2><div>收缩</div></div>
+
+				<div class="accordion" fillSpace="sidebar">
+				    <div class="accordionHeader">
+						<h2><span>Folder</span>后台用户管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="tabsPage.html" target="navTab">后台用户列表</a>
+								<ul>
+									<li><a href="<?php echo U('admin/lists');?>" target="navTab" rel="main">全部用户</a></li>
+									<li><a href="<?php echo U('admin/lists',array('s'=>'admin'));?>" target="navTab" rel="main">主管理员</a></li>
+									<li><a href="<?php echo U('admin/lists',array('s'=>'editor'));?>" target="navTab" rel="main">编辑用户</a></li>
+									<li><a href="<?php echo U('admin/lists',array('s'=>'finance'));?>" target="navTab" rel="main">财务用户</a></li>
+									<li><a href="<?php echo U('admin/lists',array('s'=>'service'));?>" target="navTab" rel="main">客服用户</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="<?php echo U('admin/add');?>" target="navTab" rel="w_validation">添加后台用户</a></li>
+									
+							<li><a href="<?php echo U('admin_style/index');?>" target="navTab" rel="w_validation">后台用户类型</a></li>
+						</ul>
+					</div>
+					<div class="accordionHeader">
+						<h2><span>Folder</span>文章管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="<?php echo U('article/index');?>" target="navTab" rel="main">文章列表</a></li>
+							<li><a href="<?php echo U('article/add');?>" target="navTab" rel="w_validation">添加文章</a></li>									
+							<li><a href="<?php echo U('article_class/index');?>" target="navTab" rel="w_validation">文章分类</a></li>
+							<li><a href="<?php echo U('article_class/add');?>" target="navTab" rel="w_validation">添加文章分类</a></li>
+						</ul>
+					</div>
+					<div class="accordionHeader">
+						<h2><span>Folder</span>会员管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="tabsPage.html" target="navTab">会员列表</a>
+								<ul>
+									<li><a href="<?php echo U('member/index');?>" target="navTab" rel="main">全部会员</a></li>
+									<li><a href="<?php echo U('member/index',array('s'=>'vip'));?>" target="navTab" rel="main">VIP会员</a></li>
+									<li><a href="<?php echo U('member/index',array('s'=>'block'));?>" target="navTab" rel="main">屏蔽的会员</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="<?php echo U('member/add');?>" target="navTab" rel="w_validation">添加会员</a></li>
+						</ul>
+					</div>
+					<div class="accordionHeader">
+						<h2><span>Folder</span>店铺管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="tabsPage.html" target="navTab">店铺</a>
+								<ul>
+									<li><a href="<?php echo U('store/index');?>" target="navTab" rel="main">全部店铺</a></li>
+									<li><a href="<?php echo U('store/index',array('s'=>'close'));?>" target="navTab" rel="main">关闭的店铺</a></li>
+							        <li><a href="<?php echo U('store/add');?>" target="navTab" rel="main">添加店铺</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="tabsPage.html" target="navTab">店铺等级</a>
+								<ul>
+									<li><a href="<?php echo U('store_grade/index');?>" target="navTab" rel="main">店铺等级列表</a></li>
+									<li><a href="<?php echo U('store_grade/add');?>" target="navTab" rel="main">添加店铺等级</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="accordionHeader">
+						<h2><span>Folder</span>商品管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="tabsPage.html" target="navTab">商品列表</a>
+								<ul>
+									<li><a href="<?php echo U('goods/index');?>" target="navTab" rel="main">全部商品</a></li>
+									<li><a href="<?php echo U('goods/index',array('s'=>'notshow'));?>" target="navTab" rel="main">下架的商品</a></li>
+									<li><a href="<?php echo U('goods/index',array('s'=>'runout'));?>" target="navTab" rel="main">断货的商品</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="<?php echo U('goods/add');?>" target="navTab" rel="w_validation">添加商品</a></li>
+							<li><a href="<?php echo U('goods_class/index');?>" target="navTab" rel="w_validation">商品分类</a></li>
+							<li><a href="<?php echo U('goods_class/add');?>" target="navTab" rel="w_validation">添加商品分类</a></li>
+							<li><a href="<?php echo U('goods_type/index');?>" target="navTab" rel="w_validation">商品类型</a></li>
+							<li><a href="<?php echo U('goods_type/add');?>" target="navTab" rel="w_validation">添加商品类型</a></li>
+							<li><a href="<?php echo U('goods_spec/index');?>" target="navTab" rel="w_validation">商品规格</a></li>
+							<li><a href="<?php echo U('goods_spec/add');?>" target="navTab" rel="w_validation">添加商品规格</a></li>
+							<li><a href="<?php echo U('goods_brand/index');?>" target="navTab" rel="w_validation">商品品牌</a></li>
+							<li><a href="<?php echo U('goods_brand/add');?>" target="navTab" rel="w_validation">添加商品品牌</a></li>
+							<li><a href="<?php echo U('goods_attr/index');?>" target="navTab" rel="w_validation">商品属性</a></li>
+							<li><a href="<?php echo U('goods_attr/add');?>" target="navTab" rel="w_validation">添加商品属性</a></li>
+						</ul>
+					</div>
+					<div class="accordionHeader">
+						<h2><span>Folder</span>系统管理</h2>
+					</div>
+					<div class="accordionContent">
+						<ul class="tree treeFolder">
+							<li><a href="<?php echo U('setting/index');?>" target="navTab" rel="main">站点管理</a></li>
+							<li><a href="<?php echo U('setting/email');?>" target="navTab" rel="w_validation">邮件设置</a></li>
+							<li><a href="tabsPage.html" target="navTab">SEO设置</a>
+								<ul>
+									<li><a href="<?php echo U('setting/seo');?>" target="navTab" rel="main">首页</a></li>
+									<li><a href="<?php echo U('setting/seo');?>" target="navTab" rel="main">文章</a></li>
+									<li><a href="<?php echo U('setting/seo');?>" target="navTab" rel="main">列表</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="container">
+			<div id="navTab" class="tabsPage">
+				<div class="tabsPageHeader">
+					<div class="tabsPageHeaderContent"><!-- 显示左右控制时添加 class="tabsPageHeaderMargin" -->
+						<ul class="navTab-tab">
+							<li tabid="main" class="main"><a href="javascript:;"><span><span class="home_icon">我的主页</span></span></a></li>
+						</ul>
+					</div>
+					<div class="tabsLeft">left</div><!-- 禁用只需要添加一个样式 class="tabsLeft tabsLeftDisabled" -->
+					<div class="tabsRight">right</div><!-- 禁用只需要添加一个样式 class="tabsRight tabsRightDisabled" -->
+					<div class="tabsMore">more</div>
+				</div>
+				<ul class="tabsMoreList">
+					<li><a href="javascript:;">我的主页</a></li>
+				</ul>
+				<div class="navTab-panel tabsPageContent layoutBox">
+<div class="pageContent">
+您好，欢迎登录hmall后台管理
+</div>
+</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="footer">Copyright &copy; 2010 <a href="demo_page2.html" target="dialog">DWZ团队</a> 京ICP备05019125号-10</div>
+</body>
+</html>

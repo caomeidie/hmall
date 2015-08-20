@@ -6,7 +6,11 @@ class AdminController extends UserBaseController{
     public function __construct(){
         parent::__construct();
     }
+    
     public function index(){
+        $this->display();
+    }
+    public function lists(){
         $admin_model = D('Admin');
         if($s = I('get.s')){
             switch ($s){
