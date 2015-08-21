@@ -990,7 +990,7 @@ class Model {
      * @param string $type 状态
      * @return mixed
      */
-     public function create($data='',$type='') {
+     public function create($data='',$type='',$index=array()) {
         // 如果没有传值默认取POST数据
         if(empty($data)) {
             $data   =   I('post.');
@@ -1039,7 +1039,7 @@ class Model {
         }
 
         // 数据自动验证
-        if(!$this->autoValidation($data,$type)) return false;
+        if(!$this->autoValidation($data,$type,$index)) return false;
 
         // 表单令牌验证
         if(!$this->autoCheckToken($data)) {
@@ -1176,7 +1176,7 @@ class Model {
      * @param string $type 创建类型
      * @return boolean
      */
-    protected function autoValidation($data,$type) {
+    protected function autoValidation($data,$type,$index=array()) {
         if(!empty($this->options['validate'])) {
             $_validate   =   $this->options['validate'];
             unset($this->options['validate']);
@@ -1201,17 +1201,17 @@ class Model {
                     // 判断验证条件
                     switch($val[3]) {
                         case self::MUST_VALIDATE:   // 必须验证 不管表单是否有设置该字段
-                            if(false === $this->_validationField($data,$val)) 
+                            if(false === $this->_validationField($data,$val,$index)) 
                                 return false;
                             break;
                         case self::VALUE_VALIDATE:    // 值不为空的时候才验证
                             if('' != trim($data[$val[0]]))
-                                if(false === $this->_validationField($data,$val)) 
+                                if(false === $this->_validationField($data,$val,$index)) 
                                     return false;
                             break;
                         default:    // 默认表单存在该字段就验证
                             if(isset($data[$val[0]]))
-                                if(false === $this->_validationField($data,$val)) 
+                                if(false === $this->_validationField($data,$val,$index)) 
                                     return false;
                     }
                 }
@@ -1230,10 +1230,10 @@ class Model {
      * @param array $val 验证因子
      * @return boolean
      */
-    protected function _validationField($data,$val) {
+    protected function _validationField($data,$val,$index=array()) {
         if($this->patchValidate && isset($this->error[$val[0]]))
             return ; //当前字段已经有规则验证没有通过
-        if(false === $this->_validationFieldItem($data,$val)){
+        if(false === $this->_validationFieldItem($data,$val,$index)){
             if($this->patchValidate) {
                 $this->error[$val[0]]   =   $val[2];
             }else{
@@ -1251,7 +1251,7 @@ class Model {
      * @param array $val 验证因子
      * @return boolean
      */
-    protected function _validationFieldItem($data,$val) {
+    protected function _validationFieldItem($data,$val,$index=array()) {
         switch(strtolower(trim($val[4]))) {
             case 'function':// 使用函数进行验证
             case 'callback':// 调用方法进行验证
@@ -1288,7 +1288,13 @@ class Model {
                 if(!empty($data[$pk]) && is_string($pk)) { // 完善编辑的时候验证唯一
                     $map[$pk] = array('neq',$data[$pk]);
                 }
-                if($this->where($map)->find())   return false;
+                if(($val[5] == 2 || $val[5] == 3) && !empty($index)){
+                    $count = $this->where(array(key($index)=>array('NEQ', $index[key($index)])))->where($map)->count();
+                    if($count)    return false;
+                }else{
+                    if($this->where($map)->find())    return false;
+                }
+                    
                 return true;
             default:  // 检查附加规则
                 return $this->check($data[$val[0]],$val[1],$val[4]);

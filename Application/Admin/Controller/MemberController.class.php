@@ -19,8 +19,8 @@ class MemberController extends UserBaseController{
                     break;
             }
         }
-        $count = $member_model->field('COUNT(member_id) as count')->where($condition)->find();
-        $pagination['count'] = $count['count'];
+        $count = $member_model->where($condition)->count();
+        $pagination['count'] = $count;
         $pagination['page'] = is_numeric(I('post.pageNum')) ? I('post.pageNum')-1 : 0;
         $pagination['perpage'] = is_numeric(I('post.numPerPage')) ? I('post.numPerPage') : 5;
         $pagination['pagenum'] = ceil($pagination['count'] / $pagination['perpage']);

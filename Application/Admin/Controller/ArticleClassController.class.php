@@ -5,8 +5,8 @@ use Admin\Controller\UserBaseController;
 class ArticleClassController extends UserBaseController{
     public function index(){
         $ac_model = D('ArticleClass');
-        $count = $ac_model->field('COUNT(ac_id) as count')->find();
-        $pagination['count'] = $count['count'];
+        $count = $ac_model->count();
+        $pagination['count'] = $count;
         $pagination['page'] = is_numeric(I('post.pageNum')) ? I('post.pageNum')-1 : 0;
         $pagination['perpage'] = is_numeric(I('post.numPerPage')) ? I('post.numPerPage') : 5;
         $pagination['pagenum'] = ceil($pagination['count'] / $pagination['perpage']);

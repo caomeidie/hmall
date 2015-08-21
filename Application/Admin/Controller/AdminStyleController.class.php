@@ -5,8 +5,8 @@ use Admin\Controller\UserBaseController;
 class AdminStyleController extends UserBaseController{
     public function index(){
         $style_model = D('AdminStyle');
-        $count = $style_model->field('COUNT(style_id) as count')->find();
-        $pagination['count'] = $count['count'];
+        $count = $style_model->count();
+        $pagination['count'] = $count;
         $pagination['page'] = is_numeric(I('post.pageNum')) ? I('post.pageNum')-1 : 0;
         $pagination['perpage'] = is_numeric(I('post.numPerPage')) ? I('post.numPerPage') : 5;
         $pagination['pagenum'] = ceil($pagination['count'] / $pagination['perpage']);

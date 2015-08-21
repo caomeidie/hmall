@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//Application/Admin/View/default/Admin/add.html=UTF-8
+encoding//Application/Admin/View/default/Admin/edit.html=UTF-8
 encoding//Application/Admin/View/default/Admin/index.html=UTF-8
 encoding//Application/Admin/View/default/Admin/lists.html=UTF-8
 encoding//Application/Admin/View/default/Admin_style/add.html=UTF-8
@@ -10,4 +11,10 @@ encoding//Application/Admin/View/default/Article_class/add.html=UTF-8
 encoding//Application/Admin/View/default/Article_class/index.html=UTF-8
 encoding//Application/Admin/View/default/Member/add.html=UTF-8
 encoding//Application/Admin/View/default/Member/index.html=UTF-8
+encoding//Application/Admin/View/default/Setting/email.html=UTF-8
+encoding//Application/Admin/View/default/Setting/index.html=UTF-8
+encoding//Application/Admin/View/default/Store/add.html=UTF-8
+encoding//Application/Admin/View/default/Store/index.html=UTF-8
+encoding//Application/Admin/View/default/Store_grade/add.html=UTF-8
+encoding//Application/Admin/View/default/Store_grade/index.html=UTF-8
 encoding/<project>=UTF-8
