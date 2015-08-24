@@ -10,6 +10,7 @@ class AdminModel extends Model{
             array('checkpwd', 'password', '确认密码不一致', self::MUST_VALIDATE, 'confirm', self::MODEL_INSERT),
             array('email', 'email', '邮箱有误', self::VALUE_VALIDATE, 'regex', self::MODEL_INSERT),
             array('email', '', '邮箱已经存在', self::VALUE_VALIDATE, 'unique', self::MODEL_BOTH),
+            array('phone', '', '手机号已经存在', self::VALUE_VALIDATE, 'unique', self::MODEL_BOTH),
     );
     
     protected $_auto = array(

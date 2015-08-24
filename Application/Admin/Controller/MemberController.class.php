@@ -49,4 +49,51 @@ class MemberController extends UserBaseController{
             $this->display();
         }
     }
+    
+    public function del()
+    {
+        if(I('get.uid')){
+            $member_id = I('get.uid');
+        }elseif(I('post.check')){
+            $member_id = I('post.check');
+        }else{
+            $member_id = 0;
+        }
+        if($member_id == 0){
+            $result = $this->message("删除失败", "300");
+        }else{
+            $member_model = D('Member');
+            $count = $member_model->delete($member_id);
+            if($count === false)
+                $result = $this->message("删除失败", "300");
+            else
+                $result = $this->message("删除".$count."条记录成功", "200");
+        }
+    
+        echo $result;
+    }
+    
+    public function edit()
+    {
+        $member_id = I('get.uid');
+        $member_model = D('Member');
+        if(IS_POST)
+        {
+            if($member_model->create(I('post.'),2,array('member_id'=>$member_id)))
+            {
+                if($member_model->where(array('member_id'=>$member_id))->save()){
+                    $result = $this->message("修改成功");
+                }else{
+                    $result = $this->message("修改失败:".$member_model->getError(), 300);
+                }
+            }else{
+                $result = $this->message($member_model->getError(), 300);
+            }
+            echo $result;
+        }else{
+            $member_info = $member_model->where(array('member_id'=>$member_id))->find();
+            $this->assign('member_info', $member_info);
+            $this->display();
+        }
+    }
 }

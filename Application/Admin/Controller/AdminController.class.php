@@ -64,13 +64,24 @@ class AdminController extends UserBaseController{
     
     public function del()
     {
-        $admin_id = I('get.uid');
-        $admin_model = D('Admin');
-        $count = $admin_model->delete($admin_id);
-        if($count === false)
-            $result = $this->message("删除失败", "200");
-        else
-            $result = $this->message("删除".$count."成功", "300");
+        if(I('get.uid')){
+            $admin_id = I('get.uid');
+        }elseif(I('post.check')){
+            $admin_id = I('post.check');
+        }else{
+            $admin_id = 0;
+        }
+        if($admin_id == 0){
+            $result = $this->message("删除失败", "300");
+        }else{
+            $admin_model = D('Admin');
+            $count = $admin_model->delete($admin_id);
+            if($count === false)
+                $result = $this->message("删除失败", "300");
+            else
+                $result = $this->message("删除".$count."条记录成功", "200");
+        }
+        
         echo $result;
     }
     
@@ -80,7 +91,7 @@ class AdminController extends UserBaseController{
         $admin_model = D('Admin');
         if(IS_POST)
         {
-            if($admin_model->create($_POST,2,array('admin_id'=>$admin_id)))
+            if($admin_model->create(I('post.'),2,array('admin_id'=>$admin_id)))
             {
                 if($admin_model->where(array('admin_id'=>$admin_id))->save()){
                     $result = $this->message("修改成功");
