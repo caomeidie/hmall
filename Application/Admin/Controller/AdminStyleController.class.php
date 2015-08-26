@@ -80,7 +80,7 @@ class AdminStyleController extends UserBaseController{
         }else{
             $style_info = $style_model->where(array('style_id'=>$style_id))->find();
             $style_model = D('AdminStyle');
-            $style_list = $style_model->index('role_id')->select();
+            $style_list = $style_model->index('style_id')->select();
             $this->assign('style_info', $style_info);
             $this->assign('style_list', $style_list);
             $roles_model = D('Roles');

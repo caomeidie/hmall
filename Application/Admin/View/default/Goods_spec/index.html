@@ -1,29 +1,30 @@
-<form id="pagerForm" method="post" action="{:U('admin/lists')}">
-	<input type="hidden" name="admin_name" value="${param.admin_name}" />
-	<input type="hidden" name="add_time" value="${param.add_time}" />
-	<input type="hidden" name="style" value="${param.style}" />
+<form id="pagerForm" method="post" action="{:U('goods_spec/index')}">
+	<input type="hidden" name="status" value="${param.status}">
+	<input type="hidden" name="keywords" value="${param.keywords}" />
 	<input type="hidden" name="pageNum" value="1" />
 	<input type="hidden" name="numPerPage" value="{$pagination['perpage']}" />
 	<input type="hidden" name="orderField" value="${param.orderField}" />
 </form>
 <div class="pageHeader">
-	<form onsubmit="return navTabSearch(this);" action="{:U('admin/lists')}" method="post">
+	<form onsubmit="return navTabSearch(this);" action="{:U('goods_spec/index')}" method="post">
 	<div class="searchBar">
 	    <table class="searchContent">
 			<tr>
 				<td>
-					管理员名称：<input type="text" name="admin_name" value="{$admin_name}" />
+					我的客户：<input type="text" name="keyword" />
 				</td>
 				<td>
-					<select class="combox" name="style">
-						<option value="">所有分类</option>
-						<foreach name="style_list" item="style">
-						<option value="{$style['style_id']}" <if condition="$style['style_id'] EQ $style">selected</if>>{$style['style_value']}</option>
-						</foreach>
+					<select class="combox" name="province">
+						<option value="">所有省市</option>
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+						<option value="天津">天津</option>
+						<option value="重庆">重庆</option>
+						<option value="广东">广东</option>
 					</select>
 				</td>
 				<td>
-					添加日期：<input type="text" class="date" name="add_time" readonly="true"  value="{$add_time}" />
+					建档日期：<input type="text" class="date" readonly="true" />
 				</td>
 			</tr>
 		</table>
@@ -40,8 +41,8 @@
 	<div class="panelBar">
 		<ul class="toolBar">
 		    <li><a class="all edit"><span>全选</span></a></li>
-			<li><a class="add" href="{:U('admin/add')}" target="navTab"><span>添加</span></a></li>
-			<li><a title="确实要删除这些记录吗?" target="selectedTodo" rel="check" postType="string" href="{:U('admin/del')}" class="delete"><span>删除</span></a></li>
+			<li><a class="add" href="{:U('goods_spec/add')}" target="navTab"><span>添加</span></a></li>
+			<li><a title="确实要删除这些记录吗?" target="selectedTodo" rel="check" postType="string" href="{:U('goods_spec/del')}" class="delete"><span>删除</span></a></li>
 			<li class="line">line</li>
 			<li><a class="icon" href="demo/common/dwz-team.xls" target="dwzExport" targetType="navTab" title="实要导出这些记录吗?"><span>导出EXCEL</span></a></li>
 		</ul>
@@ -50,34 +51,24 @@
 		<thead>
 			<tr>
 			    <th width="40"></th>
-				<th width="80">id</th>
-				<th width="120">用户名</th>
-				<th>邮箱</th>
-				<th width="100">手机</th>
-				<th width="150">添加时间</th>
-				<th width="150">最近更新时间</th>
-				<th width="80">最近登录IP</th>
-				<th width="80">状态</th>
-				<th width="80">用户类型</th>
+				<th width="40">id</th>
+				<th>规格名称</th>
+				<th>规格值</th>
+				<th width="100">排序</th>
 				<th width="80">操作</th>
 			</tr>
 		</thead>
 		<tbody>
-		<foreach name="admin_list" item="value">
-    		<tr target="sid" rel="{$value['admin_id']}">
-    		    <td><label><input type="checkbox" name="check" value="{$value['admin_id']}" /></label></td>
-        		<td>{$value['admin_id']}</td>
-                <td>{$value['admin_name']}</td>
-                <td>{$value['email']}</td>
-                <td>{$value['phone']}</td>
-                <td>{$value['addtime']|date="Y-m-d H:i:s",###}</td>
-                <td>{$value['updatetime']|date="Y-m-d H:i:s",###}</td>
-                <td>{$value['lastip']}</td>
-                <td>{$value['status']}</td>
-                <td>{$value['style_id']}</td>
+		<foreach name="spec_list" item="value">
+    		<tr target="sid" rel="{$value['spec_id']}">
+    		    <td><label><input type="checkbox" name="check" value="{$value['spec_id']}" /></label></td>
+        		<td>{$value['spec_id']}</td>
+                <td>{$value['spec_name']}</td>
+                <td>{:implode("，", unserialize($value['spec_value']))}</td>
+                <td>{$value['spec_sort']}</td>
                 <td>
-                    <a title="删除" target="ajaxTodo" href="{:U('admin/del',array('uid'=>$value['admin_id']))}" class="btnDel">删除</a>
-					<a title="编辑" target="navTab" href="{:U('admin/edit',array('uid'=>$value['admin_id']))}" class="btnEdit">编辑</a>
+                    <a title="删除" target="ajaxTodo" href="{:U('goods_spec/del',array('uid'=>$value['spec_id']))}" class="btnDel">删除</a>
+					<a title="编辑" target="navTab" href="{:U('goods_spec/edit',array('uid'=>$value['spec_id']))}" class="btnEdit">编辑</a>
                 </td>
 			</tr>
 		</foreach>

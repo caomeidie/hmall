@@ -1,30 +1,27 @@
 <?php if (!defined('THINK_PATH')) exit();?><form id="pagerForm" method="post" action="<?php echo U('admin/lists');?>">
-	<input type="hidden" name="status" value="${param.status}">
-	<input type="hidden" name="keywords" value="${param.keywords}" />
+	<input type="hidden" name="admin_name" value="${param.admin_name}" />
+	<input type="hidden" name="add_time" value="${param.add_time}" />
+	<input type="hidden" name="style" value="${param.style}" />
 	<input type="hidden" name="pageNum" value="1" />
 	<input type="hidden" name="numPerPage" value="<?php echo ($pagination['perpage']); ?>" />
 	<input type="hidden" name="orderField" value="${param.orderField}" />
 </form>
 <div class="pageHeader">
-	<form onsubmit="return navTabSearch(this);" action="<?php echo U('admin/index');?>" method="post">
+	<form onsubmit="return navTabSearch(this);" action="<?php echo U('admin/lists');?>" method="post">
 	<div class="searchBar">
 	    <table class="searchContent">
 			<tr>
 				<td>
-					我的客户：<input type="text" name="keyword" />
+					管理员名称：<input type="text" name="admin_name" value="<?php echo ($admin_name); ?>" />
 				</td>
 				<td>
-					<select class="combox" name="province">
-						<option value="">所有省市</option>
-						<option value="北京">北京</option>
-						<option value="上海">上海</option>
-						<option value="天津">天津</option>
-						<option value="重庆">重庆</option>
-						<option value="广东">广东</option>
+					<select class="combox" name="style">
+						<option value="">所有分类</option>
+						<?php if(is_array($style_list)): foreach($style_list as $key=>$style): ?><option value="<?php echo ($style['style_id']); ?>" <?php if($style['style_id'] == $style): ?>selected<?php endif; ?>><?php echo ($style['style_value']); ?></option><?php endforeach; endif; ?>
 					</select>
 				</td>
 				<td>
-					建档日期：<input type="text" class="date" readonly="true" />
+					添加日期：<input type="text" class="date" name="add_time" readonly="true"  value="<?php echo ($add_time); ?>" />
 				</td>
 			</tr>
 		</table>

@@ -1,0 +1,59 @@
+<div class="pageContent">
+	<form method="post" action="{:U('goods_type/edit',array('uid'=>$type_info['type_id']))}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<div class="pageFormContent nowrap" layoutH="97">
+		<dl>
+			<dt>类型名称：</dt>
+			<dd>
+		        <input name="name" type="text" value="{$type_info['type_name']}" class="required" />
+		    </dd>
+		</dl>
+		<dl>
+			<dt>关联规格：</dt>
+			<dd>
+				<php> $spec_arr = unserialize($type_info['type_spec']);</php>
+			    <if condition="$spec_list">
+			    <foreach name="spec_list" item="spec">
+		        <input name="spec[]" type="checkbox" value="{$spec['spec_id']}" <if condition="in_array($spec['spec_id'], $spec_arr)"> checked</if> /><span style="font-weight: bold;">{$spec['spec_name']}：</span>{:implode('，', unserialize($spec['spec_value']))}</br>
+		        </foreach>
+		        </if>
+		    </dd>
+		</dl>
+		<dl>
+			<dt>关联属性：</dt>
+			<dd>
+				<php> $attr_arr = unserialize($type_info['type_attr']);</php>
+			    <if condition="$attr_list">
+			    <foreach name="attr_list" item="attr">
+		        <input name="attr[]" type="checkbox" value="{$attr['attr_id']}" <if condition="in_array($attr['attr_id'], $attr_arr)"> checked</if> /><span style="font-weight: bold;">{$attr['attr_name']}：</span>{:implode('，', unserialize($attr['attr_value']))}</br>
+		        </foreach>
+		        </if>
+		    </dd>
+		</dl>
+		<dl>
+			<dt>关联品牌：</dt>
+			<dd>
+				<php> $brand_arr = unserialize($type_info['type_brand']); </php>
+			    <if condition="$brand_list">
+			    <foreach name="brand_list" item="brand">
+		        <input name="brand[]" type="checkbox" value="{$brand['brand_id']}" <if condition="in_array($brand['brand_id'], $brand_arr)"> checked</if> />{$brand['brand_name']}
+		        </foreach>
+		        </if>
+		    </dd>
+		</dl>
+		<dl>
+			<dt>索引：</dt>
+			<dd>
+			    <input name="sort" type="text" value="{$type_info['type_sort']}">
+		    </dd>
+		</dl>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

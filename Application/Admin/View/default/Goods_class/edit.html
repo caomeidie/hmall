@@ -1,0 +1,59 @@
+<div class="pageContent">
+	<form method="post" action="{:U('goods_class/edit',array('uid'=>$gc_info['gc_id']))}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<div class="pageFormContent nowrap" layoutH="97">
+		<dl>
+			<dt>分类名称：</dt>
+			<dd>
+		        <input name="name" type="text" value="{$gc_info['gc_name']}" class="required" />
+		    </dd>
+		</dl>
+		<dl>
+			<dt>上级分类：</dt>
+			<dd>
+		        <select name="gc">
+			    <option value="0">请选择...</option>
+			    <if condition="$list_tree">
+			    <foreach name="list_tree" item="gc">
+		        <option value="{$gc['val']['gc_id']}" <if condition="$gc_info['gc_parent_id'] EQ $gc['val']['gc_id']"> selected </if>>{$gc['html']}{$gc['val']['gc_name']}</option>
+		        </foreach>
+		        </if>
+		        </select>
+		    </dd>
+		</dl>
+		<dl>
+			<dt>关联类型：</dt>
+			<dd>
+			    <select name="type">
+			    <option value="0">请选择...</option>
+			    <if condition="$type_list">
+			    <foreach name="type_list" item="type">
+		        <option value="{$type['type_id']}" <if condition="$gc_info['type_id'] EQ $type['type_id']"> selected </if>>{$type['type_name']}</option>
+		        </foreach>
+		        </if>
+		        </select>
+		    </dd>
+		</dl>
+		<dl>
+			<dt>显示：</dt>
+			<dd>
+			    <input type="radio" name="show" value="1" <if condition="$gc_info['gc_show'] EQ 1"> checked </if> >是
+			    <input type="radio" name="show" value="0" <if condition="$gc_info['gc_show'] EQ 0"> checked </if> >否
+		    </dd>
+		</dl>
+		<dl>
+			<dt>索引：</dt>
+			<dd>
+			    <input name="sort" type="text" value="{$gc_info['gc_sort']}">
+		    </dd>
+		</dl>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

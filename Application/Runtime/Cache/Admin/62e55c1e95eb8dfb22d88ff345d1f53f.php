@@ -126,18 +126,8 @@ function testConfirmMsg(text, url){
 					</div>
 					<div class="accordionContent">
 						<ul class="tree treeFolder">
-							<li><a href="tabsPage.html" target="navTab">后台用户列表</a>
-								<ul>
-									<li><a href="<?php echo U('admin/lists');?>" target="navTab" rel="main">全部用户</a></li>
-									<li><a href="<?php echo U('admin/lists',array('s'=>'admin'));?>" target="navTab" rel="main">主管理员</a></li>
-									<li><a href="<?php echo U('admin/lists',array('s'=>'editor'));?>" target="navTab" rel="main">编辑用户</a></li>
-									<li><a href="<?php echo U('admin/lists',array('s'=>'finance'));?>" target="navTab" rel="main">财务用户</a></li>
-									<li><a href="<?php echo U('admin/lists',array('s'=>'service'));?>" target="navTab" rel="main">客服用户</a></li>
-								</ul>
-							</li>
-							
-							<li><a href="<?php echo U('admin/add');?>" target="navTab" rel="w_validation">添加后台用户</a></li>
-									
+							<li><a href="<?php echo U('admin/lists');?>" target="navTab" rel="w_validation">后台用户列表</a></li>
+							<li><a href="<?php echo U('admin/add');?>" target="navTab" rel="w_validation">添加后台用户</a></li>									
 							<li><a href="<?php echo U('admin_style/index');?>" target="navTab" rel="w_validation">后台用户类型</a></li>
 						</ul>
 					</div>

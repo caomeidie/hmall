@@ -12,21 +12,17 @@ class AdminController extends UserBaseController{
     }
     public function lists(){
         $admin_model = D('Admin');
-        if($s = I('get.s')){
-            switch ($s){
-                case 'admin':
-                    $condition['style_id'] = 1;
-                    break;
-                case 'editor':
-                    $condition['style_id'] = 2;
-                    break;
-                case 'finance':
-                    $condition['style_id'] = 3;
-                    break;
-                case 'service':
-                    $condition['style_id'] = 4;
-                    break;
-            }
+        if(I('post.admin_name') && I('post.admin_name') != ''){
+            $condition['admin_name'] = array('LIKE', '%'.I('post.admin_name').'%');
+            $this->assign('admin_name', I('post.admin_name'));
+        }
+        if(I('post.add_time') && I('post.add_time') != ''){
+            $condition['addtime'] = array('EGT', strtotime(I('post.add_time')));
+            $this->assign('add_time', I('post.add_time'));
+        }
+        if(I('post.style') && I('post.style') != ''){
+            $condition['style_id'] = I('post.style');
+            $this->assign('style', I('post.style'));
         }
         $count = $admin_model->where($condition)->count();
         $pagination['count'] = $count;
@@ -36,6 +32,9 @@ class AdminController extends UserBaseController{
         $pagination['offset'] = $pagination['page'] * $pagination['perpage'];
         $admin_list = $admin_model->where($condition)->order('admin_id ASC')->page($pagination['page']+1, $pagination['perpage'])->select();
         $this->assign(array('admin_list'=> $admin_list, 'pagination'=>$pagination));
+        $style_model = D('AdminStyle');
+        $style_list = $style_model->index('style_id')->select();
+        $this->assign('style_list', $style_list);
         $this->display();
     }
     

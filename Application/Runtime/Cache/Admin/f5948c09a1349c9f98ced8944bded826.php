@@ -11,7 +11,7 @@
 			<dt>网站Logo：</dt>
 			<dd>
 			<input type="file" name="attach[]" />
-		        <img alt="" src="<?php echo ($setting_list['site_logo']['setting_val']); ?>">
+		        <img alt="" src="/hmall/Public/upload/setting/<?php echo ($setting_list['site_logo']['setting_val']); ?>">
 		    </dd>
 		</dl>
 		<dl>
