@@ -1,0 +1,22 @@
+<div class="pageContent">
+	选择商品分类：
+	<form method="post" action="{:U('goods/add', array('step'=>'two'))}" class="pageForm required-validate" onsubmit="return navTabSearch(this);">
+		<div class="pageFormContent nowrap" layoutH="97">
+		    <select name="goodsclass">
+		    <if condition="$list_tree">
+		    <foreach name="list_tree" item="gc">
+	        <option value="{$gc['val']['gc_id']}">{$gc['html']}{$gc['val']['gc_name']}</option>
+	        </foreach>
+	        </if>
+	        </select>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">下一步</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>
