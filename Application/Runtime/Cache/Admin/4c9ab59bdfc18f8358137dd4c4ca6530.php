@@ -1,4 +1,4 @@
-<style type="text/css" media="screen">
+<?php if (!defined('THINK_PATH')) exit();?><style type="text/css" media="screen">
 .my-uploadify-button {
 	background:none;
 	border: none;
@@ -21,104 +21,77 @@
 #mix_type input{float:none;}
 </style>
 <div class="pageContent">
-	<form method="post" action="{:U('goods/edit', array('uid', $goods_info['goods_id']))}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
-		<input type="hidden" name="gc_id" value="{$gc_id}">
+	<form method="post" action="<?php echo U('goods/edit', array('uid', $goods_info['goods_id']));?>" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type="hidden" name="gc_id" value="<?php echo ($gc_id); ?>">
 		<div class="pageFormContent nowrap" layoutH="97">
 		<dl>
 			<dt>商品名称：</dt>
 			<dd>
-		        <input name="goods_name" type="text" class="required" value="{$goods_info['goods_name']}" />
+		        <input name="goods_name" type="text" class="required" value="<?php echo ($goods_info['goods_name']); ?>" />
 		    </dd>
 		</dl>
 		<dl>
 			<dt>商品货号：</dt>
 			<dd>
-		        <input name="goods_num" type="text" value="{$goods_info['goods_num']}" />
+		        <input name="goods_num" type="text" value="<?php echo ($goods_info['goods_num']); ?>" />
 		    </dd>
 		</dl>
-		<if condition="isset($type_id)">
-		    <if condition="$spec_info">
-		    <dl>
+		<?php if(isset($type_id)): if($spec_info): ?><dl>
     			<dt>商品规格：</dt>
-    			<dd><php> $spec_num = 1; </php>
-    		        <foreach name="spec_info" item="spec">
-    		            <div class="spec spec{$spec_num}" mrtype="{$spec_num}" value="{$spec['spec_id']}"><strong>{$spec['spec_name']}:</strong>
-    		                <php> $spec_arr = unserialize($spec['spec_value']); </php>
-    		                <foreach name="spec_arr" key="key" item="val">
-    		                    <input type="checkbox" name="goods_spec[]" value="{$key}" value_name="{$val}" spec_id="{$spec['spec_id']}"
-    		                    <foreach name="goods_svalue" item="svalue_arr">
-        		                    <foreach name="svalue_arr['spec_goods_seri']" item="svalue">
-        		                        <php> $spec_one = explode('.', $svalue); </php>
-        		                        <if condition="($spec_one[0] EQ $spec['spec_id']) AND ($spec_one[1] EQ $key)">
-        		                            checked
-        		                        </if>
-        		                    </foreach>
-    		                    </foreach>
-    		                     />{$val}
-    		                </foreach>
+    			<dd><?php $spec_num = 1; ?>
+    		        <?php if(is_array($spec_info)): foreach($spec_info as $key=>$spec): ?><div class="spec spec<?php echo ($spec_num); ?>" mrtype="<?php echo ($spec_num); ?>" value="<?php echo ($spec['spec_id']); ?>"><strong><?php echo ($spec['spec_name']); ?>:</strong>
+    		                <?php $spec_arr = unserialize($spec['spec_value']); ?>
+    		                <?php if(is_array($spec_arr)): foreach($spec_arr as $key=>$val): ?><input type="checkbox" name="goods_spec[]" value="<?php echo ($key); ?>" value_name="<?php echo ($val); ?>" spec_id="<?php echo ($spec['spec_id']); ?>"
+    		                    <?php if(is_array($goods_svalue)): foreach($goods_svalue as $key=>$svalue_arr): ?><foreach name="svalue_arr['spec_goods_seri']" item="svalue">
+        		                        <?php $spec_one = explode('.', $svalue); ?>
+        		                        <?php if(($spec_one[0] == $spec['spec_id']) AND ($spec_one[1] == $key)): ?>checked<?php endif; endforeach; endif; endforeach; endif; ?>
+    		                     /><?php echo ($val); endforeach; endif; ?>
     		            </div>
-    		            <php> $spec_num++; </php>
+    		            <?php $spec_num++; ?>
     		        </foreach>
     		    </dd>
     		</dl>
 		    <dl id="mix_type">
-		    <foreach name="goods_svalue" item="svalue">
-		        <div class="types" data="{implode($svalue['spec_goods_seri'], '-')}">
-		        <strong><foreach name="svalue['spec_goods_seri']" key="skey" item="svalue_one"><php> $svalue_arr = explode('.', $svalue_one); </php><php> $spec = unserialize($spec_info[$svalue_arr[0]]['spec_value']); </php>{$spec[$svalue_arr[1]]}<if condition="$skey LT count($svalue['spec_goods_seri'])-1">-</if></foreach>:</strong> 价格<input type="text" name="price_spec[]" value="{$svalue['spec_goods_price']}" class="required">库存<input type="text" name="storage_spec[]" value="{$svalue['spec_goods_storage']}" class="required"><input type="hidden" name="specs[]" value="{implode($svalue['spec_goods_seri'], '-')}">
-		        </div>
-		    </foreach>
-		    </dl>
-		    </if>
+		    <?php if(is_array($goods_svalue)): foreach($goods_svalue as $key=>$svalue): ?><div class="types" data="{implode($svalue['spec_goods_seri'], '-')}">
+		        <strong><?php if(is_array($svalue['spec_goods_seri'])): foreach($svalue['spec_goods_seri'] as $skey=>$svalue_one): $svalue_arr = explode('.', $svalue_one); $spec = unserialize($spec_info[$svalue_arr[0]]['spec_value']); echo ($spec[$svalue_arr[1]]); if($skey < count($svalue['spec_goods_seri'])-1): ?>-<?php endif; endforeach; endif; ?>:</strong> 价格<input type="text" name="price_spec[]" value="<?php echo ($svalue['spec_goods_price']); ?>" class="required">库存<input type="text" name="storage_spec[]" value="<?php echo ($svalue['spec_goods_storage']); ?>" class="required"><input type="hidden" name="specs[]" value="{implode($svalue['spec_goods_seri'], '-')}">
+		        </div><?php endforeach; endif; ?>
+		    </dl><?php endif; ?>
 		    
-		    <if condition="$attr_info">
-		    <dl>
+		    <?php if($attr_info): ?><dl>
     			<dt>商品属性：</dt>
     			<dd>
-    		        <foreach name="attr_info" item="attr">
-    		            <div style="height: 30px;"><strong>{$attr['attr_name']}:</strong>
-    		                <php> $attr_arr = unserialize($attr['attr_value']); </php>
+    		        <?php if(is_array($attr_info)): foreach($attr_info as $key=>$attr): ?><div style="height: 30px;"><strong><?php echo ($attr['attr_name']); ?>:</strong>
+    		                <?php $attr_arr = unserialize($attr['attr_value']); ?>
     		                <select name="goods_attr[]" style="float: none;">
     		                    <option value="0">其他</option>
-    		                    <php> var_dump($attr_arr);var_dump($goods_avalue); </php>
-    		                <foreach name="attr_arr" key="key" item="val">
-    		                    <option value="{$attr['attr_id']}_{$key}"
-    		                    <foreach name="goods_avalue" item="avalue">
-    		                    {$avalue['attr_value']}_{$key}
-                                    <if condition="($attr['attr_id'] EQ $avalue['attr_id']) AND ($avalue['attr_value'] EQ $key)">selected</if>
-    		                    </foreach>
-    		                    >{$val}</option>
-    		                </foreach>
+    		                <?php if(is_array($attr_arr)): foreach($attr_arr as $key=>$val): ?><option value="<?php echo ($attr['attr_id']); ?>_<?php echo ($key); ?>"
+    		                    <?php if(is_array($goods_avalue)): foreach($goods_avalue as $key=>$avalue): echo ($avalue['attr_value']); ?>_<?php echo ($key); ?>
+                                    <?php if(($attr['attr_id'] == $avalue['attr_id']) AND ($avalue['attr_value'] == $key)): ?>selected<?php endif; endforeach; endif; ?>
+    		                    ><?php echo ($val); ?></option><?php endforeach; endif; ?>
     		                </select>
-    		            </div>
-    		        </foreach>
+    		            </div><?php endforeach; endif; ?>
     		    </dd>
-    		</dl>
-		    </if>
+    		</dl><?php endif; ?>
 		    
-		    <if condition="$brand_info">
-		    <dl>
+		    <?php if($brand_info): ?><dl>
     			<dt>商品品牌：</dt>
     			<dd>
     		        <select name="goods_brand" id="goods_brand">
     		            <option value="0">其他</option>
-    		        <foreach name="brand_info" item="brand">
-    		            <option value="{$brand['brand_id']}" <if condition="$goods_info['brand_id'] EQ $brand['brand_id']">selected</if>>{$brand['brand_name']}</option>
-    		        </foreach>
+    		        <?php if(is_array($brand_info)): foreach($brand_info as $key=>$brand): ?><option value="<?php echo ($brand['brand_id']); ?>" <?php if($goods_info['brand_id'] == $brand['brand_id']): ?>selected<?php endif; ?>><?php echo ($brand['brand_name']); ?></option><?php endforeach; endif; ?>
     		        </select>
     		    </dd>
-    		</dl>
-		    </if>
-		</if>
+    		</dl><?php endif; endif; ?>
 		<dl>
 			<dt>商品价格：</dt>
 			<dd>
-		        <input name="goods_price" id="goods_price" type="text" <if condition="!$goods_svalue">class="required" value="{$goods_info['goods_price']}"<else />readonly="readonly"</if> />
+		        <input name="goods_price" id="goods_price" type="text" <?php if(!$goods_svalue): ?>class="required" value="<?php echo ($goods_info['goods_price']); ?>"<?php else: ?>readonly="readonly"<?php endif; ?> />
 		    </dd>
 		</dl>
 		<dl>
 			<dt>商品库存：</dt>
 			<dd>
-		        <input name="goods_storage" id="goods_storage" type="text" <if condition="!$goods_svalue">class="required" value="{$goods_info['goods_storage']}"<else />readonly="readonly"</if> />
+		        <input name="goods_storage" id="goods_storage" type="text" <?php if(!$goods_svalue): ?>class="required" value="<?php echo ($goods_info['goods_storage']); ?>"<?php else: ?>readonly="readonly"<?php endif; ?> />
 		    </dd>
 		</dl>
 		<dl>
@@ -126,8 +99,8 @@
 			<dd>
         		<input id="testFileInput" type="file" name="attach" 
             		uploaderOption="{
-            			swf:'__STATIC__/uploadify/scripts/uploadify.swf',
-            			uploader:'{:U('goods/upload')}',
+            			swf:'/hmall/Public/static/uploadify/scripts/uploadify.swf',
+            			uploader:'<?php echo U('goods/upload');?>',
             			formData:{PHPSESSID:'xxx', ajax:1},
             			buttonText:'上传图片',
             			fileSizeLimit:'200KB',
@@ -140,23 +113,21 @@
             	/>
 		    </dd>
 		    <dd id="image">
-		        <foreach name="goods_image" item="image">
-		            <div class="{$image['atta_id']}"><input type="hidden" name="image[]" value="{$image['atta_name']}"><img src="__UPLOAD__/goods/{$image['atta_name']}" width="60px" height="60px"><a class="drop_img" value="{$image['atta_id']}">删除</a></div>
-		        </foreach>
+		        <?php if(is_array($goods_image)): foreach($goods_image as $key=>$image): ?><div class="<?php echo ($image['atta_id']); ?>"><input type="hidden" name="image[]" value="<?php echo ($image['atta_name']); ?>"><img src="/hmall/Public/upload/goods/<?php echo ($image['atta_name']); ?>" width="60px" height="60px"><a class="drop_img" value="<?php echo ($image['atta_id']); ?>">删除</a></div><?php endforeach; endif; ?>
 		    </dd>
 		</dl>
 		<dl>
 			<dt>上架：</dt>
 			<dd>
-			    <input type="radio" name="goods_show" value="1" <if condition="$goods_info['goods_show'] EQ 1">checked</if> >是
-			    <input type="radio" name="goods_show" value="0" <if condition="$goods_info['goods_show'] EQ 0">checked</if> >否
+			    <input type="radio" name="goods_show" value="1" <?php if($goods_info['goods_show'] == 1): ?>checked<?php endif; ?> >是
+			    <input type="radio" name="goods_show" value="0" <?php if($goods_info['goods_show'] == 0): ?>checked<?php endif; ?> >否
 		    </dd>
 		</dl>
 		<dl>
 			<dt>推荐：</dt>
 			<dd>
-			    <input type="radio" name="goods_recommend" value="1" <if condition="$goods_info['goods_recommend'] EQ 1">checked</if> >是
-			    <input type="radio" name="goods_recommend" value="0" <if condition="$goods_info['goods_recommend'] EQ 0">checked</if>>否
+			    <input type="radio" name="goods_recommend" value="1" <?php if($goods_info['goods_recommend'] == 1): ?>checked<?php endif; ?> >是
+			    <input type="radio" name="goods_recommend" value="0" <?php if($goods_info['goods_recommend'] == 0): ?>checked<?php endif; ?>>否
 		    </dd>
 		</dl>
 		</div>
@@ -175,7 +146,7 @@ function uploadifySuccess(file, data, response){
 	data = eval ("(" + data + ")");
 	if(data['statusCode'] == 200){
 		var time = new Date().getTime();
-		$("#image").append('<div class="'+time+'"><input type="hidden" name="image[]" value="'+data['message']+'" /><img src="__UPLOAD__/goods/'+data['message']+'" width="60px" height="60px" /><a class="drop_img" value="'+time+'">删除</a></div>');
+		$("#image").append('<div class="'+time+'"><input type="hidden" name="image[]" value="'+data['message']+'" /><img src="/hmall/Public/upload/goods/'+data['message']+'" width="60px" height="60px" /><a class="drop_img" value="'+time+'">删除</a></div>');
 	}else{
 	    alert(data['message']);
 	}
