@@ -1,0 +1,480 @@
+[ 2015-11-11T09:22:36+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:37:05+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:37:28+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:38:32+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018000s ]
+
+[ 2015-11-11T09:38:33+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:42:57+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:42:58+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:43:19+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021000s ]
+
+[ 2015-11-11T09:43:20+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T09:44:05+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.046000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047000s ]
+
+[ 2015-11-11T09:44:05+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.023000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:45:37+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-11T09:45:38+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:46:26+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032000s ]
+
+[ 2015-11-11T09:46:27+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:48:32+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:48:32+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-11T09:50:17+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-11T09:50:18+08:00 ] ::1 /hmall/index.php/Home/goods/show/id/index.php?act=show_store&op=ajax_flowstat_record&store_id=1&goods_id=46&act_param=goods&op_param=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp\www\hmall\Application\Home\Controller\GoodsController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_tree F:\wamp\www\hmall\Application\Runtime\Cache\Home\54008e408fa304c7303b79a38c85d02c.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T14:39:54+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

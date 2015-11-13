@@ -1,0 +1,1006 @@
+[ 2015-11-13T10:31:03+08:00 ] ::1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:03+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:31:03+08:00 ] ::1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:03+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:04+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:09+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0040s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:10+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:19+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447381879158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:31:22+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/18.html?_=1447381882409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 18  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 18  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 18  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:23+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-13T10:31:24+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447381884474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:31:26+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447381886699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:31:27+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:41:49+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447382509685
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:41:51+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/17.html?_=1447382511775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 17  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 17  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:41:52+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:44:32+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447382672260
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-13T10:44:34+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/17.html?_=1447382674725
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:44:35+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:54:33+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447383273716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-13T10:56:43+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447383403779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:56:46+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447383405835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:56:46+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-13T10:57:12+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` WHERE `goods_id` <> '20' AND `goods_name` = '测试男装' LIMIT 1   [ RunTime:0.0470s ]
+SQL: UPDATE `hm_goods` SET `gc_id`='3',`goods_name`='测试男装',`goods_num`='36000002',`goods_price`='100.00',`goods_storage`='3330',`goods_show`='1',`goods_recommend`='1',`goods_max_price`='102.00',`goods_min_price`='100.00',`goods_image`='2015-11-12/5643ecf93d860.jpg',`goods_content`='&lt;p&gt;sdfasdfdasfsdafsfsad&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/hmall/Public/static/Public/upload/day_151113/201511131057059460.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;../../../Public/upload/day_151112/201511120921469727.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;',`spec_open`='1',`attr_open`='1' WHERE `goods_id` = 20 [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hm_attachment` WHERE `related_id` = 20 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-11-12/5643ecf93d860.jpg' LIMIT 1   [ RunTime:0.0050s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-11-12/5643ecf93d860.jpg','goods','1447383432') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4bba6428.jpg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4bba6428.jpg','goods','1447383432') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4b857a58.jpg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4b857a58.jpg','goods','1447383432') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: DELETE FROM `hm_goods_spec_value` WHERE `goods_id` = 20 [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','111') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','111') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','999') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','111') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','102.00','999') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hm_goods_attr_value` WHERE `goods_id` = 20 [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','2','3') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','5','2') [ RunTime:0.0010s ]
+
+[ 2015-11-13T10:58:03+08:00 ] ::1 /hmall/index.php/Admin//hmall/Public/static/Public/upload/day_151113/201511131058022714.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:58:09+08:00 ] ::1 /hmall/index.php/Admin//hmall/Public/static/Public/upload/day_151113/201511131058022714.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-13T10:58:39+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:58:44+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447383524922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:58:50+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447383530047
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:58:51+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:59:32+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447383572358
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:59:34+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447383574742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-13T10:59:35+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-13T10:59:48+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` WHERE `goods_id` <> '20' AND `goods_name` = '测试男装' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hm_goods` SET `gc_id`='3',`goods_name`='测试男装',`goods_num`='36000002',`goods_price`='100.00',`goods_storage`='3330',`goods_show`='1',`goods_recommend`='1',`goods_max_price`='102.00',`goods_min_price`='100.00',`goods_image`='2015-08-27/55ded4b857a58.jpg',`goods_content`='&lt;p&gt;sdfasdfdasfsdafsfsad&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/hmall/Public/static/../../Public/upload/day_151113/201511131059431377.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;../../../Public/upload/day_151112/201511120921469727.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;',`spec_open`='1',`attr_open`='1' WHERE `goods_id` = 20 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: DELETE FROM `hm_attachment` WHERE `related_id` = 20 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4b857a58.jpg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4b857a58.jpg','goods','1447383588') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4bba6428.jpg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4bba6428.jpg','goods','1447383588') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-11-12/5643ecf93d860.jpg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-11-12/5643ecf93d860.jpg','goods','1447383588') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hm_goods_spec_value` WHERE `goods_id` = 20 [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','111') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','999') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','111') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','102.00','111') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0100s ]
+SQL: DELETE FROM `hm_goods_attr_value` WHERE `goods_id` = 20 [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','2','3') [ RunTime:0.0040s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','5','2') [ RunTime:0.0010s ]
+
+[ 2015-11-13T11:00:38+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` WHERE `goods_id` <> '20' AND `goods_name` = '测试男装' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hm_goods` SET `gc_id`='3',`goods_name`='测试男装',`goods_num`='36000002',`goods_price`='100.00',`goods_storage`='3330',`goods_show`='1',`goods_recommend`='1',`goods_max_price`='102.00',`goods_min_price`='100.00',`goods_image`='2015-08-27/55ded4b857a58.jpg',`goods_content`='&lt;p&gt;sdfasdfdasfsdafsfsad&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/hmall/Public/static/../../Public/upload/day_151113/201511131059431377.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/hmall/Public/static/../../Public/upload/day_151113/201511131100352821.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;',`spec_open`='1',`attr_open`='1' WHERE `goods_id` = 20 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hm_attachment` WHERE `related_id` = 20 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4b857a58.jpg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4b857a58.jpg','goods','1447383638') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-08-27/55ded4bba6428.jpg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-08-27/55ded4bba6428.jpg','goods','1447383638') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `atta_name` = '2015-11-12/5643ecf93d860.jpg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_attachment` (`related_id`,`atta_name`,`atta_type`,`add_time`) VALUES ('20','2015-11-12/5643ecf93d860.jpg','goods','1447383638') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hm_goods_spec_value` WHERE `goods_id` = 20 [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','111') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','100.00','999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','999') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','101.00','111') [ RunTime:0.0010s ]
+SQL: INSERT INTO `hm_goods_spec_value` (`goods_id`,`spec_goods_seri`,`spec_goods_price`,`spec_goods_storage`) VALUES ('20','a:2:{i:0;s:38:\"{implode($svalue[\'spec_goods_seri\'], \'\";i:1;s:3:\"\')}\";}','102.00','111') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: DELETE FROM `hm_goods_attr_value` WHERE `goods_id` = 20 [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','2','3') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hm_goods_attr_value` (`goods_id`,`attr_id`,`attr_value`) VALUES ('20','5','2') [ RunTime:0.0010s ]
+

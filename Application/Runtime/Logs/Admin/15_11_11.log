@@ -1,0 +1,3179 @@
+[ 2015-11-11T09:58:42+08:00 ] ::1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:58:42+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.205000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.206000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:58:43+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:58:49+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T09:58:51+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:58:53+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html?0.9518608711659908
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:58:55+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html?0.17869916814379394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:00+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0070s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:59:01+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:59:09+08:00 ] ::1 /hmall/index.php/Admin/goods/add.html?_=1447207149342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:13+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447207152882
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:15+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/17.html?_=1447207154687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 17  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:59:15+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:35+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447207175628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:59:38+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/19.html?_=1447207178006
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 19  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 19  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 19  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:38+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T09:59:39+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447207179545
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:40+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447207180735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T09:59:41+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:24:30+08:00 ] 127.0.0.1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033000s ]
+
+[ 2015-11-11T13:24:30+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:24:31+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:24:38+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0390s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:24:40+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:24:58+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/add.html?_=1447219498369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.2280s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:25:02+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/add/step/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:25:02+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/css/samples.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2015-11-11T13:25:02+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:25:03+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:01+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220101266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:03+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/17.html?_=1447220103525
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 17  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: {implode($svalue['spec_goods_seri'], ' F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined index: ')} F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:04+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:07+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220107020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:20+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220120415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:35:21+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:36:02+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220162544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T13:36:07+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220167162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:36:07+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/css/samples.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2015-11-11T13:36:07+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:36:08+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:38+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220258277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:41+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220261450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:42+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:37:42+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:55+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220275084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:59+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220279387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:37:59+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:38:00+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:43:29+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220609711
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:43:36+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220616459
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:43:37+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:43:37+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:44:24+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220664069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:44:26+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220666666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:44:27+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/__STATIC__/ckeditor/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__STATIC__
+
+[ 2015-11-11T13:44:27+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:45:12+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220711968
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:45:14+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220714058
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:45:14+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:45:15+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:46:21+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447220781133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:46:26+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447220785815
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:46:26+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:50:08+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221008154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T13:50:10+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221010722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:50:11+08:00 ] 127.0.0.1 /hmall/index.php/Admin/Public/static/ckeditor/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-11-11T13:50:11+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:50:55+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221055112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:50:58+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221058458
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:50:59+08:00 ] 127.0.0.1 /hmall/index.php/Admin/Public/static/ckeditor/core/loader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-11-11T13:50:59+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:51:17+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:51:27+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index/s/runout.html?_=1447221086935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:51:27+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221087634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:51:30+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221090092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:51:30+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:52:20+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221140211
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:52:22+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221142218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:52:22+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/core/event.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:core
+
+[ 2015-11-11T13:52:23+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T13:52:42+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221162373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:52:46+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221166560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:52:47+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T13:53:00+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221180220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:53:03+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221183444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:53:04+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:53:19+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447221199116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:53:21+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447221201419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T13:53:22+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:25:50+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/tabsPage.html?_=1447223150339
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:25:53+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T14:25:53+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:26:03+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0030s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:26:04+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:26:19+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/index.html?_=1447223179590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:26:22+08:00 ] 127.0.0.1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447223181962
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T14:26:22+08:00 ] 127.0.0.1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T14:39:56+08:00 ] ::1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:39:56+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:39:56+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:39:59+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0040s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:40:00+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T14:40:07+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447224007046
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T14:40:08+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447224008305
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0070s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T14:40:08+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T14:43:20+08:00 ] ::1 /hmall/index.php/Admin/admin/upload.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:upload.php
+
+[ 2015-11-11T15:28:25+08:00 ] 127.0.0.1 /hmall/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.372000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.055000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057000s ]
+
+[ 2015-11-11T15:28:26+08:00 ] 127.0.0.1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.517000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.093000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.094000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056000s ]
+
+[ 2015-11-11T15:28:27+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-11T15:28:51+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.4890s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.1820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T15:28:53+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.480000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.481000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T15:28:59+08:00 ] ::1 /hmall/index.php/Admin/admin/tabsPage.html?_=1447226939847
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:tabsPage
+
+[ 2015-11-11T15:29:03+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447226942986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.1890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.1430s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T15:29:07+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447226945347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.2060s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.1660s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0680s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.1120s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2015-11-11T15:29:08+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:41:08+08:00 ] ::1 /hmall/index.php/Admin/goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: goods_svalue F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 106 行.
+NOTIC: [8] Undefined variable: goods_svalue F:\wamp\www\hmall\Application\Runtime\Cache\Admin\4c9ab59bdfc18f8358137dd4c4ca6530.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:42:18+08:00 ] ::1 /hmall/index.php/Admin/goods/index.html?_=1447227737956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Admin\be76b01b172771da708e23523e315e7c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:42:21+08:00 ] ::1 /hmall/index.php/Admin/goods/edit/uid/20.html?_=1447227740861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` WHERE `goods_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_attachment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_attachment` WHERE `related_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_attr_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec_value` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec_value` WHERE `goods_id` = 20  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT `type_id` FROM `hm_goods_class` WHERE `gc_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_type` WHERE `type_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_attr` WHERE `attr_id` IN ('2','5')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_spec` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_spec` WHERE `spec_id` IN ('1','6','7')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_brand` WHERE `brand_id` IN ('4','5','6')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:42:21+08:00 ] ::1 /hmall/index.php/Admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-11-11T15:42:36+08:00 ] ::1 /hmall/index.php/Admin/upload/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_put_contents(upload/2015111115423631471.tmp): failed to open stream: No such file or directory F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 23 行.
+NOTIC: [2] filesize(): stat failed for upload/2015111115423631471.tmp F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 70 行.
+NOTIC: [2] mkdir(): No such file or directory F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 83 行.
+NOTIC: [2] fopen(upload/day_151111/index.htm): failed to open stream: No such file or directory F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 84 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 84 行.
+NOTIC: [2] rename(upload/2015111115423631471.tmp,upload/day_151111/201511111542368098.jpg):  F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 90 行.
+NOTIC: [2] chmod(): No such file or directory F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 91 行.
+NOTIC: [2] unlink(upload/2015111115423631471.tmp): No such file or directory F:\wamp\www\hmall\Application\Admin\Controller\UploadController.class.php 第 100 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T15:45:00+08:00 ] ::1 /hmall/index.php/Admin/article/index.html?_=1447227900237
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article` ORDER BY article_id ASC LIMIT 0,5   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:45:02+08:00 ] ::1 /hmall/index.php/Admin/article/edit/uid/1.html?_=1447227902334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:45:02+08:00 ] ::1 /hmall/index.php/Admin/data/upload/day_150525/201505251553052651.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:45:11+08:00 ] ::1 /hmall/index.php/Admin/article/add.html?_=1447227911271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:48:46+08:00 ] ::1 /hmall/index.php/Admin/article/add.html?_=1447228126581
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T15:54:25+08:00 ] ::1 /hmall/index.php/Admin/article/add.html?_=1447228465071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:36:16+08:00 ] ::1 /hmall/index.php/Admin/article/index.html?_=1447230976164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:36:17+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:36:17+08:00 ] ::1 /hmall/index.php/Admin/index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:36:23+08:00 ] ::1 /hmall/index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_admin` [ RunTime:0.0040s ]
+SQL: SELECT `admin_id`,`admin_name` FROM `hm_admin` WHERE `admin_name` = 'xiaomi' AND `password` = '0192023a7bbd73250516f069df18b500' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T16:36:24+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-11T16:36:57+08:00 ] ::1 /hmall/index.php/Admin/article_class/index.html?_=1447231017319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_article_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article_class` ORDER BY ac_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-11T16:36:58+08:00 ] ::1 /hmall/index.php/Admin/article/add.html?_=1447231017984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:37:07+08:00 ] ::1 /hmall/index.php/Admin/article_class/index.html?_=1447231027183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_article_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article_class` ORDER BY ac_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:37:08+08:00 ] ::1 /hmall/index.php/Admin/article/index.html?_=1447231027997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article` ORDER BY article_id ASC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:37:10+08:00 ] ::1 /hmall/index.php/Admin/article/edit/uid/10.html?_=1447231030395
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hm_article` WHERE `article_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T16:56:14+08:00 ] ::1 /hmall/index.php/Admin/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-11T16:56:19+08:00 ] ::1 /hmall/index.php/Admin/article/add.html?_=1447232179347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T17:00:55+08:00 ] ::1 /hmall/index.php/Admin/article_class/index.html?_=1447232455239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hm_article_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article_class` ORDER BY ac_id ASC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-11T17:00:57+08:00 ] ::1 /hmall/index.php/Admin/article_class/edit/uid/7.html?_=1447232457031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_article_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_article_class` WHERE `ac_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hm_article_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

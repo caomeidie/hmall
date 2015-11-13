@@ -37,6 +37,7 @@ class GoodsController extends UserBaseController{
                 $goods_model->goods_max_price = $max_price;
                 $goods_model->goods_min_price = $min_price;
                 $goods_model->goods_storage = I('post.goods_storage') ? I('post.goods_storage') : $storage;
+                $goods_model->goods_content = I('post.content');
                 $goods_model->goods_image = I('post.image')[0];
                 $goods_model->spec_open = I('post.goods_price') ? 0 : 1;
                 $goods_model->attr_open = I('post.goods_attr') ? 1 : 0;
@@ -180,7 +181,7 @@ class GoodsController extends UserBaseController{
         
         if(I('post.goods_name'))
         {
-            if($goods_model->create()){
+            if($goods_model->create(I('post.'),2,array('goods_id'=>$goods_id))){
                 $max_price = 0.00;
                 $min_price = 0.00;
                 if(I('post.price_spec')){
@@ -192,16 +193,17 @@ class GoodsController extends UserBaseController{
                 if(I('post.storage_spec')){
                     $storage = array_sum(I('post.storage_spec'));
                 }
+                
                 $goods_model->goods_price = I('post.goods_price') ? I('post.goods_price') : $min_price;
                 $goods_model->goods_max_price = $max_price;
                 $goods_model->goods_min_price = $min_price;
                 $goods_model->goods_storage = I('post.goods_storage') ? I('post.goods_storage') : $storage;
                 $goods_model->goods_image = I('post.image')[0];
+                $goods_model->goods_content = I('post.content');
                 $goods_model->spec_open = I('post.goods_price') ? 0 : 1;
                 $goods_model->attr_open = I('post.goods_attr') ? 1 : 0;
                 
-                if($goods_model->save()){
-                    $goods_id = $goods_model->goods_id;
+                if($goods_model->where(array('goods_id'=>$goods_id))->save()){
                     /*存储商品图片*/
                     if(I('post.image')){
                         $atta_model = D('Attachment');
@@ -255,7 +257,7 @@ class GoodsController extends UserBaseController{
                     $result = $this->message("修改失败", "300");
                 }
             }else{
-                $result = $this->message("修改失败".$goods_model->getError(), "300");
+                $result = $this->message("修改失败:".$goods_model->getError(), "300");
             }
             
             echo $result;

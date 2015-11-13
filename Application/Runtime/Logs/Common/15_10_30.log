@@ -1,0 +1,210 @@
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/g.bar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/g.raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/g.pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/raphael.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/g.dot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:32+08:00 ] ::1 /hmall/Public/Admin/js/chart/g.line.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:54:33+08:00 ] ::1 /hmall/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439371491637.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439274434365.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439362401671.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439362401671.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439274434365.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:04+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439371491637.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:05+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439362401671.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:05+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439274434365.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T10:55:05+08:00 ] ::1 /hmall/Public/upload/data/upload/goods/2015/08/1439371491637.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T13:46:03+08:00 ] ::1 /hmall/Public/Home/images/top_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T13:46:03+08:00 ] ::1 /hmall/Public/Home/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T13:46:03+08:00 ] ::1 /hmall/Public/Home/images/hd-and-btm.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T13:51:47+08:00 ] ::1 /hmall/Public/Home/images/hd-and-btm.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T13:56:50+08:00 ] ::1 /hmall/Public/Home/images/top_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:09+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:09+08:00 ] ::1 /hmall/Public/Home/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:09+08:00 ] ::1 /hmall/Public/Home/images/top_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:09+08:00 ] ::1 /hmall/Public/Home/images/hd-and-btm.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:10+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:12+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:12+08:00 ] ::1 /hmall/Public/Home/images/top_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:12+08:00 ] ::1 /hmall/Public/Home/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:12+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:12+08:00 ] ::1 /hmall/Public/Home/images/hd-and-btm.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:21+08:00 ] ::1 /hmall/Public/Home/images/hd-and-btm.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:34+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:37+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-30T14:50:37+08:00 ] ::1 /hmall/Public/Home/images/common/shop/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

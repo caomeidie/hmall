@@ -1,0 +1,5 @@
+<ul>
+<foreach name="goods_list" item="goods">
+    <li><a href="{:U('goods/show',array('id'=>$goods['goods_id']))}"><img src="__UPLOAD__/goods/{$goods.goods_image}" width="200" height="200" /></a><span>{$goods.goods_name}</span><span>{$goods.goods_price}</span></li>
+</foreach>
+</ul>

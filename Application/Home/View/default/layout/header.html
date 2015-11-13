@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>皇家马球俱乐部</title>
+<meta name="keywords" content="皇家马球俱乐部">
+<meta name="description" content="皇家马球俱乐部">
+<style type="text/css">
+body {
+_behavior: url(_CSS__/csshover.htc);
+}
+</style>
+<link rel="shortcut icon" href="http://192.168.0.110/b2b2c/favicon.ico">
+<link href="__CSS__/base.css" rel="stylesheet" type="text/css">
+<link href="__CSS__/home_header.css" rel="stylesheet" type="text/css">
+<link href="__CSS__/home_login.css" rel="stylesheet" type="text/css">
+<link href="__CSS__/font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="__CSS__/font/font-awesome/css/font-awesome-ie7.min.css">
+<![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__JS__/html5shiv.js"></script>
+      <script src="__JS__/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="__JS__/IE6_PNG.js"></script>
+<script>
+DD_belatedPNG.fix('.pngFix');
+</script>
+<script>
+// <![CDATA[
+if((window.navigator.appName.toUpperCase().indexOf("MICROSOFT")>=0)&&(document.execCommand))
+try{
+document.execCommand("BackgroundImageCache", false, true);
+   }
+catch(e){}
+// ]]>
+</script>
+<![endif]-->
+<script>
+var COOKIE_PRE = '40D3_';var _CHARSET = 'utf-8';var SITEURL = 'http://192.168.0.110/b2b2c/shop';var SHOP_SITE_URL = 'http://192.168.0.110/b2b2c/shop';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var SHOP_TEMPLATES_URL = 'http://192.168.0.110/b2b2c/shop/templates/default';
+</script>
+<script src="__JS__/jquery.js" charset="utf-8"></script>
+<script src="__JS__/common.js" charset="utf-8"></script>
+<script src="__JS__/jquery-ui/jquery.ui.js" charset="utf-8"></script>
+<script src="__JS__/jquery.validation.min.js" charset="utf-8"></script>
+<script src="__JS__/jquery.masonry.js" charset="utf-8"></script>
+<script src="__JS__/dialog/dialog.js" id="dialog_js" charset="utf-8"></script>
+<link href="__JS__/dialog/dialog.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+var PRICE_FORMAT = '&yen;%s';
+$(function(){
+	//首页左侧分类菜单
+	$(".category ul.menu").find("li").each(
+		function() {
+			$(this).hover(
+				function() {
+				    var cat_id = $(this).attr("cat_id");
+					var menu = $(this).find("div[cat_menu_id='"+cat_id+"']");
+					menu.show();
+					$(this).addClass("hover");
+					if(menu.attr("hover")>0) return;
+					menu.masonry({itemSelector: 'dl'});
+					var menu_height = menu.height();
+					if (menu_height < 60) menu.height(80);
+					menu_height = menu.height();
+					var li_top = $(this).position().top;
+					if ((li_top > 60) && (menu_height >= li_top)) $(menu).css("top",-li_top+50);
+					if ((li_top > 150) && (menu_height >= li_top)) $(menu).css("top",-li_top+90);
+					if ((li_top > 240) && (li_top > menu_height)) $(menu).css("top",menu_height-li_top+90);
+					if (li_top > 300 && (li_top > menu_height)) $(menu).css("top",60-menu_height);
+					if ((li_top > 40) && (menu_height <= 120)) $(menu).css("top",-5);
+					menu.attr("hover",1);
+				},
+				function() {
+					$(this).removeClass("hover");
+				    var cat_id = $(this).attr("cat_id");
+					$(this).find("div[cat_menu_id='"+cat_id+"']").hide();
+				}
+			);
+		}
+	);
+	$(".head-user-menu dl").hover(function() {
+		$(this).addClass("hover");
+	},
+	function() {
+		$(this).removeClass("hover");
+	});
+	$('.head-user-menu .my-mall').mouseover(function(){// 最近浏览的商品
+		load_history_information();
+		$(this).unbind('mouseover');
+	});
+	$('.head-user-menu .my-cart').mouseover(function(){// 运行加载购物车
+		load_cart_information();
+		$(this).unbind('mouseover');
+	});
+	$('#button').click(function(){
+	    if ($('#keyword').val() == '') {
+		    return false;
+	    }
+	});
+    });
+
+$(function(){
+	//search
+	var act = "index";
+	if (act == "store_list"){
+		$("#search").children('ul').children('li:eq(1)').addClass("current");
+		$("#search").children('ul').children('li:eq(0)').removeClass("current");
+		}
+	$("#search").children('ul').children('li').click(function(){
+		$(this).parent().children('li').removeClass("current");
+		$(this).addClass("current");
+		$('#search_act').attr("value",$(this).attr("act"));
+		$('#keyword').attr("placeholder",$(this).attr("title"));
+	});
+	$("#keyword").blur();
+});
+</script>
+</head>
+
+<body scroll="no">
+	<div class="public-top-layout w">
+	  <div class="topbar wrapper">
+	    <div class="user-entry">
+	            您好，欢迎来到 <a href="{:U('index')}" title="首页" alt="首页">皇家马球俱乐部</a>
+	      <!--span style="margin-left:10px;"><a href="index.php?act=invite" style="color:red;">邀请返利</a></span-->
+	    </div>
+	    <div class="quick-menu">
+	      <dl>
+	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=register">新用户注册</a></dt>
+	      </dl>
+		  <dl>
+	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=logout">用户登陆</a></dt>
+	      </dl>
+	            <dl>
+	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order">我的订单</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_new">待付款订单</a></li>
+	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_send">待确认收货</a></li>
+	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_noeval">待评价交易</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	    </div>
+	  </div>
+	</div>
+	<div class="header-wrap">
+	  <header class="public-head-layout wrapper">
+	    <h1 class="site-logo"><a href="http://192.168.0.110/b2b2c"><img src="__IMG__/common/shop/04959049021862520.png" class="pngFix"></a></h1>
+	    <div class="head-app"><span class="pic"></span>
+	    </div>
+	        
+	    <div id="search" class="head-search-bar">
+		<!--商品和店铺-->
+	      <ul class="tab">
+	        <li title="请输入您要搜索的商品关键字" act="search" class="current">商品</li>
+	        <li title="请输入您要搜索的店铺关键字" act="store_list">店铺</li>
+	      </ul>
+	      <form class="search-form" method="get" action="http://192.168.0.110/b2b2c/shop">
+	        <input type="hidden" value="search" id="search_act" name="act">
+	         <input placeholder="请输入您要搜索的商品关键字" name="keyword" id="keyword" type="text" class="input-text" value="" maxlength="60" x-webkit-speech="" lang="zh-CN" onwebkitspeechchange="foo()" x-webkit-grammar="builtin:search">
+	        <input type="submit" id="button" value="搜索" class="input-submit">
+	      </form>
+	    </div>
+	    <div class="head-user-menu">
+	      <dl class="my-mall">
+	        <dt><span class="ico"></span>我的商城<i class="arrow"></i></dt>
+	        <dd>
+	          <div class="sub-title">
+	            <h4>                        
+	            </h4>
+	            <a href="http://192.168.0.110/b2b2c/shop/index.php?act=member&amp;op=home" class="arrow">我的用户中心<i></i></a></div>
+	          <div class="user-centent-menu">
+	            <ul>
+	              <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order" class="arrow">我的订单<i></i></a></li>
+	              <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_favorites&amp;op=fglist" class="arrow">我的收藏<i></i></a></li>
+	                                          <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_points" class="arrow">我的积分<i></i></a></li>
+	                          </ul>
+	          </div>
+	        </dd>
+	      </dl>
+	      <dl class="my-cart">
+	                <dt><span class="ico"></span>购物车结算<i class="arrow"></i></dt>
+	        <dd>
+	          <div class="sub-title">
+	            <h4>最新加入的商品</h4>
+	          </div>
+	          <div class="incart-goods-box">
+	            <div class="incart-goods"><div class="no-order"><span>您的购物车中暂无商品，赶快选择心爱的商品吧！</span></div></div>
+	          </div>
+	          <div class="checkout"> <span class="total-price"></span><a href="http://192.168.0.110/b2b2c/shop/index.php?act=cart" class="btn-cart">结算购物车中的商品</a> </div>
+	        </dd>
+	      </dl>
+	    </div>
+	  </header>
+	</div>
+	<nav class="public-nav-layout">
+	  <div class="wrapper">
+	    <div class="all-category">
+	      
+	      <div class="title">
+		  <i></i>
+	        <h3><a href="http://192.168.0.110/b2b2c/shop/index.php?act=category&amp;op=index">所有商品分类</a></h3>
+	        </div>
+	      <div class="category">
+	        <ul class="menu">
+	        <volist name="list_tree" id="list" mod="2">
+	           <li cat_id="{$list.gc_id}" class="<if condition='$mod eq 1'>odd<else />even</if>">
+		            <div class="class">
+		                <h4><a href="{:U('cate/index',array('cate_id'=>$list['gc_id']))}">{$list.gc_name}</a></h4>
+						<span class="arrow"></span>
+					</div>
+		            <div class="sub-class masonry" cat_menu_id="1" hover="1" style="display: none; position: relative; height: 524px;">
+		            <notempty name="list.son">
+		            <foreach name="list.son" item="son">
+		            	<dl class="masonry-brick" style="position: absolute; top: 0px; left: 7px;">
+			                <dt>
+			                	<h3><a href="{:U('cate/index',array('cate_id'=>$son['gc_id']))}">{$son.gc_name}</a></h3>
+			                </dt>
+			                <dd class="goods-class">
+			                <notempty name="son.son">
+			                <foreach name="son.son" item="grandson">
+			                	<a href="{:U('cate/index',array('cate_id'=>$grandson['gc_id']))}">{$grandson.gc_name}</a>
+			               	</foreach>
+			               	</notempty>
+			                </dd>
+		                </dl>
+		             </foreach>
+		             </notempty>
+			         </div>
+	          	</li>
+	          </volist>
+	          </ul>
+	      </div>
+		</div>
+	    <ul class="site-menu">
+	      <li><a href="http://192.168.0.110/b2b2c" class="current">首页</a></li>
+	      <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=brand&amp;op=index"> 品牌</a></li>
+	      <li><a href="/shop/index.php?act=store_list&amp;op=index">店铺</a></li>
+	    </ul>
+	  </div>
+	</nav>

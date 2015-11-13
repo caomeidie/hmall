@@ -43,4 +43,7 @@ encoding//Application/Admin/View/default/Store/index.html=UTF-8
 encoding//Application/Admin/View/default/Store_grade/add.html=UTF-8
 encoding//Application/Admin/View/default/Store_grade/edit.html=UTF-8
 encoding//Application/Admin/View/default/Store_grade/index.html=UTF-8
+encoding//Application/Home/View/default/Goods/show.html=UTF-8
+encoding//Application/Home/View/default/layout/footer.html=UTF-8
+encoding//Application/Home/View/default/layout/layout.html=UTF-8
 encoding/<project>=UTF-8

@@ -1,0 +1,1584 @@
+[ 2015-11-03T09:25:37+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T10:02:52+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T10:52:01+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:52:53+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:54:29+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:55:12+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:55:13+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:55:14+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-03T10:55:56+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-03T10:58:02+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:58:04+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T10:59:21+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T11:00:00+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+NOTIC: [8] Undefined variable: grandson F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T11:03:15+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-03T11:05:26+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] Illegal string offset 'gc_name' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined index: gc_name F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T11:08:15+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:26:01+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:26:40+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:27:45+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:29:10+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+NOTIC: [8] Undefined variable: goods F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:30:31+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:30:46+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:31:19+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042000s ]
+
+[ 2015-11-03T16:31:20+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.156000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.156000s ]
+
+[ 2015-11-03T16:32:28+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.081000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.081000s ]
+
+[ 2015-11-03T16:34:23+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:34:40+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:35:36+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:35:41+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_price - assumed 'goods_price' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:36:45+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:37:02+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:37:29+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:39:39+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\hmall\Application\Home\Controller\IndexController.class.php:12) F:\wamp\www\hmall\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:40:07+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-03T16:40:36+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:44:30+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-03T16:44:59+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-03T16:45:13+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\wamp\www\hmall\ThinkPHP\Common\functions.php 第 1010 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:45:37+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Trying to get property of non-object F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Trying to get property of non-object F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Trying to get property of non-object F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Trying to get property of non-object F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:45:46+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-03T16:46:01+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-03T16:46:23+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-03T16:48:07+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 215 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Use of undefined constant gc_id - assumed 'gc_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 212 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\hmall\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-11-03T16:52:34+08:00 ] ::1 /hmall/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hm_goods_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods_class` ORDER BY gc_id ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hm_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hm_goods` ORDER BY goods_add_time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

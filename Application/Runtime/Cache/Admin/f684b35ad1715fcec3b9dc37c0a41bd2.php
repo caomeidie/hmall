@@ -105,6 +105,12 @@
 		    </dd>
 		</dl>
 		<dl>
+		    <dt>商品详情：</dt>
+			<dd>
+        		<textarea class="editor" name="content" rows="20" cols="100" upLinkUrl="/hmall/Public/static/upload.php" upLinkExt="zip,rar,txt" upImgUrl="/hmall/Public/static/upload.php" upImgExt="jpg,jpeg,gif,png" upFlashUrl="/hmall/Public/static/upload.php" upFlashExt="swf" upMediaUrl="/hmall/Public/static/upload.php" upMediaExt:"avi"></textarea>
+		    </dd>
+		</dl>
+		<dl>
 			<dt>上架：</dt>
 			<dd>
 			    <input type="radio" name="goods_show" value="1" checked >是

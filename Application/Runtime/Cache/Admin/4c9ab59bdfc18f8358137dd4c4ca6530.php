@@ -21,7 +21,7 @@
 #mix_type input{float:none;}
 </style>
 <div class="pageContent">
-	<form method="post" action="<?php echo U('goods/edit', array('uid', $goods_info['goods_id']));?>" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+	<form method="post" action="<?php echo U('goods/edit',array('uid'=>$goods_info['goods_id']));?>" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
 		<input type="hidden" name="gc_id" value="<?php echo ($gc_id); ?>">
 		<div class="pageFormContent nowrap" layoutH="97">
 		<dl>
@@ -41,14 +41,13 @@
     			<dd><?php $spec_num = 1; ?>
     		        <?php if(is_array($spec_info)): foreach($spec_info as $key=>$spec): ?><div class="spec spec<?php echo ($spec_num); ?>" mrtype="<?php echo ($spec_num); ?>" value="<?php echo ($spec['spec_id']); ?>"><strong><?php echo ($spec['spec_name']); ?>:</strong>
     		                <?php $spec_arr = unserialize($spec['spec_value']); ?>
-    		                <?php if(is_array($spec_arr)): foreach($spec_arr as $key=>$val): ?><input type="checkbox" name="goods_spec[]" value="<?php echo ($key); ?>" value_name="<?php echo ($val); ?>" spec_id="<?php echo ($spec['spec_id']); ?>"
-    		                    <?php if(is_array($goods_svalue)): foreach($goods_svalue as $key=>$svalue_arr): ?><foreach name="svalue_arr['spec_goods_seri']" item="svalue">
-        		                        <?php $spec_one = explode('.', $svalue); ?>
-        		                        <?php if(($spec_one[0] == $spec['spec_id']) AND ($spec_one[1] == $key)): ?>checked<?php endif; endforeach; endif; endforeach; endif; ?>
+    		                <?php if(is_array($spec_arr)): foreach($spec_arr as $skey=>$val): ?><input type="checkbox" name="goods_spec[]" value="<?php echo ($skey); ?>" value_name="<?php echo ($val); ?>" spec_id="<?php echo ($spec['spec_id']); ?>" 
+    		                    <?php if(is_array($goods_svalue)): foreach($goods_svalue as $key=>$svalue_arr): $seri = $svalue_arr['spec_goods_seri']; ?>
+    		                    	<?php if(is_array($seri)): $i = 0; $__LIST__ = $seri;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$svalue): $mod = ($i % 2 );++$i; $spec_one = explode('.', $svalue); ?>
+        		                        <?php if(($spec_one[0] == $spec['spec_id']) AND ($spec_one[1] == $skey)): ?>checked<?php endif; endforeach; endif; else: echo "" ;endif; endforeach; endif; ?>
     		                     /><?php echo ($val); endforeach; endif; ?>
     		            </div>
-    		            <?php $spec_num++; ?>
-    		        </foreach>
+    		            <?php $spec_num++; endforeach; endif; ?>
     		    </dd>
     		</dl>
 		    <dl id="mix_type">
@@ -64,9 +63,8 @@
     		                <?php $attr_arr = unserialize($attr['attr_value']); ?>
     		                <select name="goods_attr[]" style="float: none;">
     		                    <option value="0">其他</option>
-    		                <?php if(is_array($attr_arr)): foreach($attr_arr as $key=>$val): ?><option value="<?php echo ($attr['attr_id']); ?>_<?php echo ($key); ?>"
-    		                    <?php if(is_array($goods_avalue)): foreach($goods_avalue as $key=>$avalue): echo ($avalue['attr_value']); ?>_<?php echo ($key); ?>
-                                    <?php if(($attr['attr_id'] == $avalue['attr_id']) AND ($avalue['attr_value'] == $key)): ?>selected<?php endif; endforeach; endif; ?>
+    		                <?php if(is_array($attr_arr)): foreach($attr_arr as $skey=>$val): ?><option value="<?php echo ($attr['attr_id']); ?>_<?php echo ($skey); ?>"
+    		                    <?php if(is_array($goods_avalue)): foreach($goods_avalue as $key=>$avalue): if(($attr['attr_id'] == $avalue['attr_id']) AND ($avalue['attr_value'] == $skey)): ?>selected<?php endif; endforeach; endif; ?>
     		                    ><?php echo ($val); ?></option><?php endforeach; endif; ?>
     		                </select>
     		            </div><?php endforeach; endif; ?>
@@ -114,6 +112,12 @@
 		    </dd>
 		    <dd id="image">
 		        <?php if(is_array($goods_image)): foreach($goods_image as $key=>$image): ?><div class="<?php echo ($image['atta_id']); ?>"><input type="hidden" name="image[]" value="<?php echo ($image['atta_name']); ?>"><img src="/hmall/Public/upload/goods/<?php echo ($image['atta_name']); ?>" width="60px" height="60px"><a class="drop_img" value="<?php echo ($image['atta_id']); ?>">删除</a></div><?php endforeach; endif; ?>
+		    </dd>
+		</dl>
+		<dl>
+		    <dt>商品详情：</dt>
+			<dd>
+        		<textarea class="editor" name="content" rows="20" cols="100" upLinkUrl="/hmall/Public/static/upload.php" upLinkExt="zip,rar,txt" upImgUrl="/hmall/Public/static/upload.php" upImgExt="jpg,jpeg,gif,png" upFlashUrl="/hmall/Public/static/upload.php" upFlashExt="swf" upMediaUrl="/hmall/Public/static/upload.php" upMediaExt:"avi"><?php echo ($goods_info['goods_content']); ?></textarea>
 		    </dd>
 		</dl>
 		<dl>

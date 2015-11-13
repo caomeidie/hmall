@@ -21,7 +21,7 @@
 #mix_type input{float:none;}
 </style>
 <div class="pageContent">
-	<form method="post" action="{:U('goods/edit', array('uid', $goods_info['goods_id']))}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+	<form method="post" action="{:U('goods/edit',array('uid'=>$goods_info['goods_id']))}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
 		<input type="hidden" name="gc_id" value="{$gc_id}">
 		<div class="pageFormContent nowrap" layoutH="97">
 		<dl>
@@ -44,15 +44,16 @@
     		        <foreach name="spec_info" item="spec">
     		            <div class="spec spec{$spec_num}" mrtype="{$spec_num}" value="{$spec['spec_id']}"><strong>{$spec['spec_name']}:</strong>
     		                <php> $spec_arr = unserialize($spec['spec_value']); </php>
-    		                <foreach name="spec_arr" key="key" item="val">
-    		                    <input type="checkbox" name="goods_spec[]" value="{$key}" value_name="{$val}" spec_id="{$spec['spec_id']}"
+    		                <foreach name="spec_arr" key="skey" item="val">
+    		                    <input type="checkbox" name="goods_spec[]" value="{$skey}" value_name="{$val}" spec_id="{$spec['spec_id']}" 
     		                    <foreach name="goods_svalue" item="svalue_arr">
-        		                    <foreach name="svalue_arr['spec_goods_seri']" item="svalue">
-        		                        <php> $spec_one = explode('.', $svalue); </php>
-        		                        <if condition="($spec_one[0] EQ $spec['spec_id']) AND ($spec_one[1] EQ $key)">
+    		                    	<php> $seri = $svalue_arr['spec_goods_seri'];</php>
+    		                    	<volist name="seri" id="svalue">
+    		                    		<php> $spec_one = explode('.', $svalue); </php>
+        		                        <if condition="($spec_one[0] EQ $spec['spec_id']) AND ($spec_one[1] EQ $skey)">
         		                            checked
         		                        </if>
-        		                    </foreach>
+    		                    	</volist>
     		                    </foreach>
     		                     />{$val}
     		                </foreach>
@@ -79,12 +80,10 @@
     		                <php> $attr_arr = unserialize($attr['attr_value']); </php>
     		                <select name="goods_attr[]" style="float: none;">
     		                    <option value="0">其他</option>
-    		                    <php> var_dump($attr_arr);var_dump($goods_avalue); </php>
-    		                <foreach name="attr_arr" key="key" item="val">
-    		                    <option value="{$attr['attr_id']}_{$key}"
+    		                <foreach name="attr_arr" key="skey" item="val">
+    		                    <option value="{$attr['attr_id']}_{$skey}"
     		                    <foreach name="goods_avalue" item="avalue">
-    		                    {$avalue['attr_value']}_{$key}
-                                    <if condition="($attr['attr_id'] EQ $avalue['attr_id']) AND ($avalue['attr_value'] EQ $key)">selected</if>
+                                    <if condition="($attr['attr_id'] EQ $avalue['attr_id']) AND ($avalue['attr_value'] EQ $skey)">selected</if>
     		                    </foreach>
     		                    >{$val}</option>
     		                </foreach>
@@ -143,6 +142,12 @@
 		        <foreach name="goods_image" item="image">
 		            <div class="{$image['atta_id']}"><input type="hidden" name="image[]" value="{$image['atta_name']}"><img src="__UPLOAD__/goods/{$image['atta_name']}" width="60px" height="60px"><a class="drop_img" value="{$image['atta_id']}">删除</a></div>
 		        </foreach>
+		    </dd>
+		</dl>
+		<dl>
+		    <dt>商品详情：</dt>
+			<dd>
+        		<textarea class="editor" name="content" rows="20" cols="100" upLinkUrl="__STATIC__/upload.php" upLinkExt="zip,rar,txt" upImgUrl="__STATIC__/upload.php" upImgExt="jpg,jpeg,gif,png" upFlashUrl="__STATIC__/upload.php" upFlashExt="swf" upMediaUrl="__STATIC__/upload.php" upMediaExt:"avi">{$goods_info['goods_content']}</textarea>
 		    </dd>
 		</dl>
 		<dl>
