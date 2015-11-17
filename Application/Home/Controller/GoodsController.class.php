@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
-use Think\Controller;
-class GoodsController extends Controller {
+use Home\Controller\HomeBaseController;
+class GoodsController extends HomeBaseController {
     public function index(){
         $gc_model = D('GoodsClass');
         $list = $gc_model->index('gc_id')->order('gc_id ASC')->select();
@@ -59,7 +59,7 @@ class GoodsController extends Controller {
             $brand_model = D('GoodsBrand');
             $brand_cond['brand_id'] = array('IN', $brand_arr);
             $brand_info = $brand_model->where($brand_cond)->select();
-            $this->assign(array('goods_info'=>$goods_info, 'test'=>$test, 'gc_id'=>$gc_id, 'type_id'=>$type_id, 'attr_info'=>$attr_info, 'spec_info'=>$spec_info, 'brand_info'=>$brand_info, 'goods_avalue'=>$goods_avalue, 'goods_svalue'=>$goods_svalue, 'goods_image'=>$goods_image));
+            $this->assign(array('goods_info'=>$goods_info, 'gc_id'=>$gc_id, 'type_id'=>$type_id, 'attr_info'=>$attr_info, 'spec_info'=>$spec_info, 'brand_info'=>$brand_info, 'goods_avalue'=>$goods_avalue, 'goods_svalue'=>$goods_svalue, 'goods_image'=>$goods_image));
             $this->display();
         }else{
             $this->assign(array('goods_info'=>$goods_info, 'gc_id'=>$gc_id, 'goods_image'=>$goods_image));

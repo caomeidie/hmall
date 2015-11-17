@@ -38,9 +38,6 @@ catch(e){}
 // ]]>
 </script>
 <![endif]-->
-<script>
-var COOKIE_PRE = '40D3_';var _CHARSET = 'utf-8';var SITEURL = 'http://192.168.0.110/b2b2c/shop';var SHOP_SITE_URL = 'http://192.168.0.110/b2b2c/shop';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var SHOP_TEMPLATES_URL = 'http://192.168.0.110/b2b2c/shop/templates/default';
-</script>
 <script src="/hmall/Public/Home/js/jquery.js" charset="utf-8"></script>
 <script src="/hmall/Public/Home/js/common.js" charset="utf-8"></script>
 <script src="/hmall/Public/Home/js/jquery-ui/jquery.ui.js" charset="utf-8"></script>
@@ -118,32 +115,25 @@ $(function(){
 	<div class="public-top-layout w">
 	  <div class="topbar wrapper">
 	    <div class="user-entry">
-	            您好，欢迎来到 <a href="<?php echo U('index');?>" title="首页" alt="首页">皇家马球俱乐部</a>
-	      <!--span style="margin-left:10px;"><a href="index.php?act=invite" style="color:red;">邀请返利</a></span-->
+	            您好<a href="<?php echo U('member/home');?>"><?php echo ($member_auth['member_name']); ?></a>，欢迎来到 <a href="<?php echo U('index');?>" title="首页" alt="首页">皇家马球俱乐部</a>
+	      <?php if($member_auth): ?><a href="<?php echo U('login/logout');?>">退出</a><?php endif; ?>
 	    </div>
 	    <div class="quick-menu">
-	      <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=register">新用户注册</a></dt>
+	    <?php if(!$member_auth): ?><dl>
+	        <dt><a href="<?php echo U('login/regist');?>">新用户注册</a></dt>
 	      </dl>
 		  <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=logout">用户登陆</a></dt>
-	      </dl>
-	            <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order">我的订单</a><i></i></dt>
-	        <dd>
-	          <ul>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_new">待付款订单</a></li>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_send">待确认收货</a></li>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_noeval">待评价交易</a></li>
-	          </ul>
-	        </dd>
-	      </dl>
+	        <dt><a href="<?php echo U('login/index');?>">用户登陆</a></dt>
+	      </dl><?php endif; ?>
+	     <?php if($member_auth): ?><dl>
+	        <dt><a href="<?php echo U('member/order');?>">我的订单</a><i></i></dt>
+	      </dl><?php endif; ?>
 	    </div>
 	  </div>
 	</div>
 	<div class="header-wrap">
 	  <header class="public-head-layout wrapper">
-	    <h1 class="site-logo"><a href="http://192.168.0.110/b2b2c"><img src="/hmall/Public/Home/images/common/shop/04959049021862520.png" class="pngFix"></a></h1>
+	    <h1 class="site-logo"><a href="<?php echo U('index');?>"><img src="/hmall/Public/Home/images/common/shop/04959049021862520.png" class="pngFix"></a></h1>
 	    <div class="head-app"><span class="pic"></span>
 	    </div>
 	        

@@ -38,9 +38,6 @@ catch(e){}
 // ]]>
 </script>
 <![endif]-->
-<script>
-var COOKIE_PRE = '40D3_';var _CHARSET = 'utf-8';var SITEURL = 'http://192.168.0.110/b2b2c/shop';var SHOP_SITE_URL = 'http://192.168.0.110/b2b2c/shop';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var RESOURCE_SITE_URL = 'http://192.168.0.110/b2b2c/data/resource';var SHOP_TEMPLATES_URL = 'http://192.168.0.110/b2b2c/shop/templates/default';
-</script>
 <script src="/hmall/Public/Home/js/jquery.js" charset="utf-8"></script>
 <script src="/hmall/Public/Home/js/common.js" charset="utf-8"></script>
 <script src="/hmall/Public/Home/js/jquery-ui/jquery.ui.js" charset="utf-8"></script>
@@ -118,32 +115,25 @@ $(function(){
 	<div class="public-top-layout w">
 	  <div class="topbar wrapper">
 	    <div class="user-entry">
-	            您好，欢迎来到 <a href="<?php echo U('index');?>" title="首页" alt="首页">皇家马球俱乐部</a>
-	      <!--span style="margin-left:10px;"><a href="index.php?act=invite" style="color:red;">邀请返利</a></span-->
+	            您好<a href="<?php echo U('member/home');?>"><?php echo ($member_auth['member_name']); ?></a>，欢迎来到 <a href="<?php echo U('index');?>" title="首页" alt="首页">皇家马球俱乐部</a>
+	      <?php if($member_auth): ?><a href="<?php echo U('login/logout');?>">退出</a><?php endif; ?>
 	    </div>
 	    <div class="quick-menu">
-	      <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=register">新用户注册</a></dt>
+	    <?php if(!$member_auth): ?><dl>
+	        <dt><a href="<?php echo U('login/regist');?>">新用户注册</a></dt>
 	      </dl>
 		  <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=login&amp;op=logout">用户登陆</a></dt>
-	      </dl>
-	            <dl>
-	        <dt><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order">我的订单</a><i></i></dt>
-	        <dd>
-	          <ul>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_new">待付款订单</a></li>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_send">待确认收货</a></li>
-	            <li><a href="http://192.168.0.110/b2b2c/shop/index.php?act=member_order&amp;state_type=state_noeval">待评价交易</a></li>
-	          </ul>
-	        </dd>
-	      </dl>
+	        <dt><a href="<?php echo U('login/index');?>">用户登陆</a></dt>
+	      </dl><?php endif; ?>
+	     <?php if($member_auth): ?><dl>
+	        <dt><a href="<?php echo U('member/order');?>">我的订单</a><i></i></dt>
+	      </dl><?php endif; ?>
 	    </div>
 	  </div>
 	</div>
 	<div class="header-wrap">
 	  <header class="public-head-layout wrapper">
-	    <h1 class="site-logo"><a href="http://192.168.0.110/b2b2c"><img src="/hmall/Public/Home/images/common/shop/04959049021862520.png" class="pngFix"></a></h1>
+	    <h1 class="site-logo"><a href="<?php echo U('index');?>"><img src="/hmall/Public/Home/images/common/shop/04959049021862520.png" class="pngFix"></a></h1>
 	    <div class="head-app"><span class="pic"></span>
 	    </div>
 	        
@@ -245,7 +235,14 @@ $(function(){
     <input type="hidden" id="lockcompare" value="unlock">
   <div class="ncs-detail">
     <!-- S 商品图片 -->
-    <div id="ncs-goods-picture" class="ncs-goods-picture image_zoom"><div class="gallery_wrap" style="height: 360px; width: 360px; position: relative; overflow: hidden;"><div class="gallery levelB" style="position: absolute; overflow: hidden; opacity: 1; height: 320px; width: 320px; left: 20px; top: 20px;"><img src="http://192.168.0.110/b2b2c/data/upload/shop/common/default_goods_image_360.gif" alt="" style="height: 320px; width: 320px;"></div><div class="gallery gallery_mask" style="position: absolute; overflow: hidden; opacity: 1; height: 320px; width: 320px; left: 20px; top: 20px; display: none;"><img src="http://192.168.0.110/b2b2c/data/upload/shop/common/default_goods_image_360.gif" alt="" style="height: 320px; width: 320px;"></div></div><div class="controller_wrap"><div class="controller"><ul><li><a href="javascript:;" data-index="0" class="current"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240378724556_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="1"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240412383742_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="2"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240440076521_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="3"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240469700467_60.jpg" height="60" width="60" alt=""></a></li></ul></div><a href="javascript:;" class="prev"><span>«</span></a><a href="javascript:;" class="next"><span>»</span></a></div><div class="close_wrap"><a href="javascript:;" class="close" style="display: none;">×</a></div></div>
+    <div id="ncs-goods-picture" class="ncs-goods-picture image_zoom">
+		<ul>
+			<?php if(!empty($goods_image)): if(is_array($goods_image)): foreach($goods_image as $key=>$image): ?><li><img src="/hmall/Public/upload/goods/<?php echo ($image['atta_name']); ?>" style="height: 320px; width: 320px;" /></li><?php endforeach; endif; endif; ?>
+		</ul>
+		<ul>
+			<?php if(!empty($goods_image)): if(is_array($goods_image)): foreach($goods_image as $key=>$image): ?><li><img src="/hmall/Public/upload/goods/<?php echo ($image['atta_name']); ?>" style="height: 60px; width: 60px;" /></li><?php endforeach; endif; endif; ?>
+		</ul>
+	</div>
     <!-- S 商品基本信息 -->
     <div class="ncs-goods-summary">
       <div class="name">
@@ -256,8 +253,8 @@ $(function(){
         <dl>
           <dt>商品价格：</dt>
           <dd class="price">
-                                    <strong>¥<?php echo ($goods_info['goods_price']); ?></strong>
-                      </dd>
+              <strong>¥<?php echo ($goods_info['goods_price']); ?></strong>
+          </dd>
         </dl>
         <!-- E 商品发布价格 -->
       </div>

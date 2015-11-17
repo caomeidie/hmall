@@ -16,7 +16,22 @@
     <input type="hidden" id="lockcompare" value="unlock">
   <div class="ncs-detail">
     <!-- S 商品图片 -->
-    <div id="ncs-goods-picture" class="ncs-goods-picture image_zoom"><div class="gallery_wrap" style="height: 360px; width: 360px; position: relative; overflow: hidden;"><div class="gallery levelB" style="position: absolute; overflow: hidden; opacity: 1; height: 320px; width: 320px; left: 20px; top: 20px;"><img src="http://192.168.0.110/b2b2c/data/upload/shop/common/default_goods_image_360.gif" alt="" style="height: 320px; width: 320px;"></div><div class="gallery gallery_mask" style="position: absolute; overflow: hidden; opacity: 1; height: 320px; width: 320px; left: 20px; top: 20px; display: none;"><img src="http://192.168.0.110/b2b2c/data/upload/shop/common/default_goods_image_360.gif" alt="" style="height: 320px; width: 320px;"></div></div><div class="controller_wrap"><div class="controller"><ul><li><a href="javascript:;" data-index="0" class="current"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240378724556_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="1"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240412383742_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="2"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240440076521_60.jpg" height="60" width="60" alt=""></a></li><li><a href="javascript:;" data-index="3"><img src="http://192.168.0.110/b2b2c/data/upload/shop/store/goods/1/1_04418240469700467_60.jpg" height="60" width="60" alt=""></a></li></ul></div><a href="javascript:;" class="prev"><span>«</span></a><a href="javascript:;" class="next"><span>»</span></a></div><div class="close_wrap"><a href="javascript:;" class="close" style="display: none;">×</a></div></div>
+    <div id="ncs-goods-picture" class="ncs-goods-picture image_zoom">
+		<ul>
+			<if condition="!empty($goods_image)">
+			<foreach name="goods_image" item="image">
+			<li><img src="__UPLOAD__/goods/{$image['atta_name']}" style="height: 320px; width: 320px;" /></li>
+			</foreach>
+			</if>
+		</ul>
+		<ul>
+			<if condition="!empty($goods_image)">
+			<foreach name="goods_image" item="image">
+			<li><img src="__UPLOAD__/goods/{$image['atta_name']}" style="height: 60px; width: 60px;" /></li>
+			</foreach>
+			</if>
+		</ul>
+	</div>
     <!-- S 商品基本信息 -->
     <div class="ncs-goods-summary">
       <div class="name">
@@ -27,8 +42,8 @@
         <dl>
           <dt>商品价格：</dt>
           <dd class="price">
-                                    <strong>¥{$goods_info['goods_price']}</strong>
-                      </dd>
+              <strong>¥{$goods_info['goods_price']}</strong>
+          </dd>
         </dl>
         <!-- E 商品发布价格 -->
       </div>

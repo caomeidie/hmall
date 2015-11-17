@@ -1,7 +1,11 @@
 <?php
 namespace Home\Controller;
-use Think\Controller;
-class IndexController extends Controller {
+use Home\Controller\HomeBaseController;
+
+class IndexController extends HomeBaseController {
+    public function __construct(){
+        parent::__construct();
+    }
     public function index(){
         $gc_model = D('GoodsClass');
         $list = $gc_model->index('gc_id')->order('gc_id ASC')->select();

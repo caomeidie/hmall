@@ -36,7 +36,7 @@ class IndexController extends Controller {
             } else {
                 $this->display();
             }
-        }        
+        }
     }
     
     /* 退出登录 */
