@@ -54,6 +54,8 @@ class LoginController extends Controller {
             }
             $member_model = D('Member');
             $data['member_name'] = I('post.name');
+            $data['member_mobile'] = I('post.mobile');
+            $data['member_email'] = I('post.email');
             $data['member_passwd'] = md5($password);
             $data['member_state'] = 1;
             if($member_info = $member_model->field('member_id, member_name')->where($data)->find()){

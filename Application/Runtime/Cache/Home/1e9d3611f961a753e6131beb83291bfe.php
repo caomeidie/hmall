@@ -9,7 +9,7 @@
 <h1>登录</h1>
 
 <div class="form">
-	<form method="post" name="loginform" action="<?php echo U('login/index');?>">
+	<form method="post" name="loginform" action="/hmall/index.php/Home/login/index.html">
 		<dl>
 			<dt>用户：</dt>
 			<dd>

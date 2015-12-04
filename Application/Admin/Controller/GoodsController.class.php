@@ -6,13 +6,20 @@ use Think\Upload;
 class GoodsController extends UserBaseController{
     public function index(){
         $goods_model = D('Goods');
+        if(I('s') == "notshow"){
+            $cond = "goods_status = 0";
+        }elseif(I('s') == "runout"){
+            $cond = "goods_storage <= 0";
+        }else{
+            $cond = "1 = 1";
+        }
         $count = $goods_model->count();
         $pagination['count'] = $count;
         $pagination['page'] = is_numeric(I('post.pageNum')) ? I('post.pageNum')-1 : 0;
         $pagination['perpage'] = is_numeric(I('post.numPerPage')) ? I('post.numPerPage') : 5;
         $pagination['pagenum'] = ceil($pagination['count'] / $pagination['perpage']);
         $pagination['offset'] = $pagination['page'] * $pagination['perpage'];
-        $goods_list = $goods_model->order('goods_id ASC')->page($pagination['page']+1, $pagination['perpage'])->select();
+        $goods_list = $goods_model->where($cond)->order('goods_id ASC')->page($pagination['page']+1, $pagination['perpage'])->select();
         $this->assign(array('goods_list'=> $goods_list, 'pagination'=>$pagination));
         $this->display();
     }
@@ -233,6 +240,13 @@ class GoodsController extends UserBaseController{
                             if($svalue_model->create($svalue_data)){
                                 $svalue_model->add();
                             }
+                        }
+                    }else{
+                        $svalue_model = D('GoodsSpecValue');
+                        $goods_svalue = $svalue_model->where(array('goods_id'=>$goods_id))->select();
+                        
+                        if($goods_svalue){
+                            $svalue_model->where(array('goods_id'=>$goods_id))->delete();
                         }
                     }
                     /*存储商品属性*/
